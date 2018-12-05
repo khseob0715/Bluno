@@ -1,0 +1,4 @@
+#Thu Dec 06 01:54:55 KST 2018
+base.0=C\:\\Users\\Aiden\\Desktop\\BlunoAccessoryShieldDemo-master\\Android\\BLUNO\\bLUNO\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
