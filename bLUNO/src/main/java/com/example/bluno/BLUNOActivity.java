@@ -29,16 +29,11 @@ public class BLUNOActivity extends BlunoLibrary {
 	private Typeface txtotf;
 	private boolean isColorChange=false;
 	private ImageView titleImageView;
-	private ImageView ledImage = null;
-	private ImageView joystickImage = null;
-	private ImageView PotentiometerImage = null;
 	private ImageView arduinoinputdispArea = null;
 	private EditText oledSubmitEditText = null;
-	private me.imid.view.SwitchButton buzzerSwitch, relaySwitch;
-	private ImageView oledSubmitButton,oledClearButton;
+
 	private TextView analogTextDisp;
-    private TextView txtTemp;
-    private TextView txtHumidity;
+
 	private ColorPicker picker;
     
     public static final int LEDMode=0;
@@ -159,11 +154,11 @@ public class BLUNOActivity extends BlunoLibrary {
     		else if(mPlainProtocol.receivedCommand.equals(BleCmd.Temperature))
     		{
         		System.out.println("received Temperature");
-        		txtTemp.setText(mPlainProtocol.receivedContent[0] + "C");
+
     		}
         	else if(mPlainProtocol.receivedCommand.equals(BleCmd.Humidity)){
         		System.out.println("received Humidity");
-        		txtHumidity.setText(mPlainProtocol.receivedContent[0] + " %");
+
         	}
         	else if(mPlainProtocol.receivedCommand.equals(BleCmd.Knob)){
         		System.out.println("received Knob");            
@@ -177,39 +172,12 @@ public class BLUNOActivity extends BlunoLibrary {
     
     //configure the buzzer switch and the relay switch 
 	private void controlSwitch() {
-		buzzerSwitch = (me.imid.view.SwitchButton)this.findViewById(R.id.buzzerSwitch);
-		buzzerSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-		        if (isChecked) {
-		            // The toggle is enabled
-		        	serialSend(mPlainProtocol.write(BleCmd.Buzzer, 1));
-		        } else {
-		            // The toggle is disabled
-		        	serialSend(mPlainProtocol.write(BleCmd.Buzzer, 0));
-		        }
-		    }
-		});
-		
-		
-		relaySwitch = (me.imid.view.SwitchButton)this.findViewById(R.id.relaySwitch);
-		relaySwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-		    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-		        if (isChecked) {
-		            // The toggle is enabled
-		        	serialSend(mPlainProtocol.write(BleCmd.Relay, 1));
 
-		        } else {
-		            // The toggle is disabled
-		        	serialSend(mPlainProtocol.write(BleCmd.Relay, 0));
-
-		        }
-		    }
-		});
 	}
 
 	//configure the oled Submit component
 	private void oledSubmitEditArea() {
-		oledSubmitEditText = (EditText) this.findViewById(R.id.editArea);
+
 		oledSubmitEditText.setBackgroundResource(R.drawable.edittext);
 		
 		oledSubmitEditText.setTypeface(txtotf);
@@ -225,53 +193,6 @@ public class BLUNOActivity extends BlunoLibrary {
 			}
 		});
 
-		oledSubmitButton = (ImageView)this.findViewById(R.id.uploadbutton);
-		oledSubmitButton.setOnClickListener(new OnClickListener() {
-	        @Override
-	        public void onClick(View v) {
-				Log.i(getLocalClassName(),"oled submit text");
-				//Note: edit BLE submission function here
-				serialSend(mPlainProtocol.write(BleCmd.Disp + oledSubmitEditText.getText(), 0,0));
-	        }
-	    });
-		
-		oledClearButton = (ImageView)this.findViewById(R.id.clearbutton);
-		
-//		oledClearButton.setOnTouchListener(new OnTouchListener(){
-//
-//			@Override
-//			public boolean onTouch(View v, MotionEvent event) {
-//				if(event.getActionMasked() == MotionEvent.ACTION_DOWN)
-//				{
-//					if(mBluetoothLeService!= null && mSCharacteristic != null){
-//						mBleCmd = BleCmd.Relay;
-//						mSCharacteristic.setValue(mPlainProtocol.write(mBleCmd, 1));
-//						mBluetoothLeService.writeCharacteristic(mSCharacteristic);
-//					}
-//				}
-//				if(event.getActionMasked() == MotionEvent.ACTION_UP)
-//				{
-//					if(mBluetoothLeService!= null && mSCharacteristic != null){
-//						mBleCmd = BleCmd.Relay;
-//						mSCharacteristic.setValue(mPlainProtocol.write(mBleCmd, 0));
-//						mBluetoothLeService.writeCharacteristic(mSCharacteristic);
-//					}
-//				}
-//				return false;
-//			}
-//			
-//		});
-		
-		oledClearButton.setOnClickListener(new OnClickListener() {
-	        @Override
-	        public void onClick(View v) {
-				Log.i(getLocalClassName(),"Clear Text");
-				//Clear text after submission
-				serialSend(mPlainProtocol.write(BleCmd.Disp, 0,0));
-				oledSubmitEditText.setText("");
-	        }
-	    });
-		
 		
 	}
 	
@@ -296,12 +217,10 @@ public class BLUNOActivity extends BlunoLibrary {
 		
 		// Font path
 		String fontPath = "fonts/yueregular.otf";
-        txtTemp = (TextView) findViewById(R.id.tempdisp);
-        txtHumidity = (TextView) findViewById(R.id.humiditydisp);
+
         
         txtotf = Typeface.createFromAsset(getAssets(), fontPath);
-        txtTemp.setTypeface(txtotf);
-        txtHumidity.setTypeface(txtotf);
+
         
         analogTextDisp = (TextView) findViewById(R.id.analogTextDisp);
         analogTextDisp.setTypeface(txtotf);
@@ -312,105 +231,101 @@ public class BLUNOActivity extends BlunoLibrary {
 	//configure the Image View switching part in the center of the UI
 	public void imageConfig(){	
 
-		ledImage = (ImageView)this.findViewById(R.id.ledbutton);
-		joystickImage = (ImageView)this.findViewById(R.id.joystickbutton);
-		PotentiometerImage = (ImageView)this.findViewById(R.id.potbutton);
-		
 		arduinoinputdispArea = (ImageView)this.findViewById(R.id.pot_input_Area);
-		
-		ledImage.setOnClickListener(new OnClickListener() {
-	        @Override
-	        public void onClick(View v) {
-				Log.i(getLocalClassName(),v.getDrawableState().toString());
-				
-				ledImage.setImageResource(R.drawable.led_tab_seleted);
-				joystickImage.setImageResource(R.drawable.joystick_unselected);
-				PotentiometerImage.setImageResource(R.drawable.pot_unseleted);
 
-				// modeManager area - LED controller mode
-				picker.setVisibility(View.VISIBLE);
-				arduinoinputdispArea.setVisibility(View.INVISIBLE);
-				analogTextDisp.setVisibility(View.INVISIBLE);
-
-				Modestates = LEDMode;
-
-				progressWheel.setVisibility(View.INVISIBLE);
-				
-	    		isLastSwitchOn=false;
-
-				if(mConnected)
-				{
-		    		receivedHandler.post(colorRunnable);
-		    		receivedHandler.removeCallbacks(PotentiometerRunnable);
-				}
-
-	        }
-	    });
-		joystickImage.setOnClickListener(new OnClickListener() {
-	        @Override
-	        public void onClick(View v) {
-				Log.i(getLocalClassName(),v.getDrawableState().toString());
-				
-				ledImage.setImageResource(R.drawable.led_tab_unseleted);
-				joystickImage.setImageResource(R.drawable.joystick_selecte);
-				PotentiometerImage.setImageResource(R.drawable.pot_unseleted);
-
-				// modeManager area - joystick state display Mode
-				picker.setVisibility(View.INVISIBLE);
-        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_none);
-				arduinoinputdispArea.setVisibility(View.VISIBLE);
-				analogTextDisp.setVisibility(View.INVISIBLE);
-				// check the testingThread function for the display control code
-				Modestates = RockerMode;
-				
-				progressWheel.setVisibility(View.INVISIBLE);
-				
-				if(mConnectionState==connectionStateEnum.isConnected)
-				{
-		    		receivedHandler.removeCallbacks(colorRunnable);
-		    		serialSend(mPlainProtocol.write(BleCmd.RGBLed,0,0,0));
-		    		receivedHandler.removeCallbacks(PotentiometerRunnable);
-				}
-	        }
-	    });
-		
-		PotentiometerImage.setOnClickListener(new OnClickListener() {
-	        @Override
-	        public void onClick(View v) {
-				Log.i(getLocalClassName(),v.getDrawableState().toString());
-				
-				ledImage.setImageResource(R.drawable.led_tab_unseleted);
-				picker.setVisibility(View.INVISIBLE);
-				
-				joystickImage.setImageResource(R.drawable.joystick_unselected);
-				
-				PotentiometerImage.setImageResource(R.drawable.pot_selected);
-				
-        		arduinoinputdispArea.setImageResource(R.drawable.potmeter);
-
-				arduinoinputdispArea.setVisibility(View.INVISIBLE);
-
-				// modeManager area - joystick state display Mode
-				picker.setVisibility(View.INVISIBLE);
-				arduinoinputdispArea.setVisibility(View.VISIBLE);
-				analogTextDisp.setVisibility(View.VISIBLE);
-				// check the testingThread function for the display control code
-				Modestates = KnobMode;
-				
-				//Add-ons progress wheel effect
-				progressWheel.setVisibility(View.VISIBLE);
-				
-				//circleBounds.width()/2) + rimWidth + paddingLeft, 
-				//(circleBounds.height()/2) + rimWidth + paddingTop, 
-				//circleRadius
-				if(mConnectionState==connectionStateEnum.isConnected)
-				{
-		    		receivedHandler.post(PotentiometerRunnable);
-		    		receivedHandler.removeCallbacks(colorRunnable);
-		    		serialSend(mPlainProtocol.write(BleCmd.RGBLed,0,0,0));
-				}
-	        }
-	    });
+//		ledImage.setOnClickListener(new OnClickListener() {
+//	        @Override
+//	        public void onClick(View v) {
+//				Log.i(getLocalClassName(),v.getDrawableState().toString());
+//
+//				ledImage.setImageResource(R.drawable.led_tab_seleted);
+//				joystickImage.setImageResource(R.drawable.joystick_unselected);
+//				PotentiometerImage.setImageResource(R.drawable.pot_unseleted);
+//
+//				// modeManager area - LED controller mode
+//				picker.setVisibility(View.VISIBLE);
+//				arduinoinputdispArea.setVisibility(View.INVISIBLE);
+//				analogTextDisp.setVisibility(View.INVISIBLE);
+//
+//				Modestates = LEDMode;
+//
+//				progressWheel.setVisibility(View.INVISIBLE);
+//
+//	    		isLastSwitchOn=false;
+//
+//				if(mConnected)
+//				{
+//		    		receivedHandler.post(colorRunnable);
+//		    		receivedHandler.removeCallbacks(PotentiometerRunnable);
+//				}
+//
+//	        }
+//	    });
+//		joystickImage.setOnClickListener(new OnClickListener() {
+//	        @Override
+//	        public void onClick(View v) {
+//				Log.i(getLocalClassName(),v.getDrawableState().toString());
+//
+//				ledImage.setImageResource(R.drawable.led_tab_unseleted);
+//				joystickImage.setImageResource(R.drawable.joystick_selecte);
+//				PotentiometerImage.setImageResource(R.drawable.pot_unseleted);
+//
+//				// modeManager area - joystick state display Mode
+//				picker.setVisibility(View.INVISIBLE);
+//        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_none);
+//				arduinoinputdispArea.setVisibility(View.VISIBLE);
+//				analogTextDisp.setVisibility(View.INVISIBLE);
+//				// check the testingThread function for the display control code
+//				Modestates = RockerMode;
+//
+//				progressWheel.setVisibility(View.INVISIBLE);
+//
+//				if(mConnectionState==connectionStateEnum.isConnected)
+//				{
+//		    		receivedHandler.removeCallbacks(colorRunnable);
+//		    		serialSend(mPlainProtocol.write(BleCmd.RGBLed,0,0,0));
+//		    		receivedHandler.removeCallbacks(PotentiometerRunnable);
+//				}
+//	        }
+//	    });
+//
+//		PotentiometerImage.setOnClickListener(new OnClickListener() {
+//	        @Override
+//	        public void onClick(View v) {
+//				Log.i(getLocalClassName(),v.getDrawableState().toString());
+//
+//				ledImage.setImageResource(R.drawable.led_tab_unseleted);
+//				picker.setVisibility(View.INVISIBLE);
+//
+//				joystickImage.setImageResource(R.drawable.joystick_unselected);
+//
+//				PotentiometerImage.setImageResource(R.drawable.pot_selected);
+//
+//        		arduinoinputdispArea.setImageResource(R.drawable.potmeter);
+//
+//				arduinoinputdispArea.setVisibility(View.INVISIBLE);
+//
+//				// modeManager area - joystick state display Mode
+//				picker.setVisibility(View.INVISIBLE);
+//				arduinoinputdispArea.setVisibility(View.VISIBLE);
+//				analogTextDisp.setVisibility(View.VISIBLE);
+//				// check the testingThread function for the display control code
+//				Modestates = KnobMode;
+//
+//				//Add-ons progress wheel effect
+//				progressWheel.setVisibility(View.VISIBLE);
+//
+//				//circleBounds.width()/2) + rimWidth + paddingLeft,
+//				//(circleBounds.height()/2) + rimWidth + paddingTop,
+//				//circleRadius
+//				if(mConnectionState==connectionStateEnum.isConnected)
+//				{
+//		    		receivedHandler.post(PotentiometerRunnable);
+//		    		receivedHandler.removeCallbacks(colorRunnable);
+//		    		serialSend(mPlainProtocol.write(BleCmd.RGBLed,0,0,0));
+//				}
+//	        }
+//	    });
 	}
 	
 	//configure the progress Wheel of the Potentiometer

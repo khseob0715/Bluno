@@ -12,70 +12,70 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int alphabeticShortcut = 0x7f03002b;
-        public static final int checkable = 0x7f03005d;
-        public static final int defaultValue = 0x7f0300a2;
-        public static final int dependency = 0x7f0300a4;
-        public static final int enabled = 0x7f0300b6;
-        public static final int key = 0x7f0300f3;
-        public static final int numericShortcut = 0x7f03014d;
-        public static final int order = 0x7f03014e;
-        public static final int orderingFromXml = 0x7f03014f;
-        public static final int persistent = 0x7f03015f;
-        public static final int selectable = 0x7f030179;
-        public static final int shouldDisableView = 0x7f03017f;
-        public static final int summary = 0x7f030199;
-        public static final int summaryOff = 0x7f03019a;
-        public static final int summaryOn = 0x7f03019b;
-        public static final int title = 0x7f0301cc;
-        public static final int titleCondensed = 0x7f0301cd;
-        public static final int widgetLayout = 0x7f0301e5;
+        public static final int alphabeticShortcut = 0x7f04002b;
+        public static final int checkable = 0x7f04005d;
+        public static final int defaultValue = 0x7f0400a2;
+        public static final int dependency = 0x7f0400a4;
+        public static final int enabled = 0x7f0400b6;
+        public static final int key = 0x7f0400f3;
+        public static final int numericShortcut = 0x7f04014d;
+        public static final int order = 0x7f04014e;
+        public static final int orderingFromXml = 0x7f04014f;
+        public static final int persistent = 0x7f04015f;
+        public static final int selectable = 0x7f040179;
+        public static final int shouldDisableView = 0x7f04017f;
+        public static final int summary = 0x7f040199;
+        public static final int summaryOff = 0x7f04019a;
+        public static final int summaryOn = 0x7f04019b;
+        public static final int title = 0x7f0401cc;
+        public static final int titleCondensed = 0x7f0401cd;
+        public static final int widgetLayout = 0x7f0401e5;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int list_item_height = 0x7f06009b;
-        public static final int preference_icon_width = 0x7f0600ab;
-        public static final int preference_margin = 0x7f0600ac;
-        public static final int preference_widget_icon_width = 0x7f0600ad;
+        public static final int list_item_height = 0x7f07009b;
+        public static final int preference_icon_width = 0x7f0700ab;
+        public static final int preference_margin = 0x7f0700ac;
+        public static final int preference_widget_icon_width = 0x7f0700ad;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int bottom = 0x7f07005d;
-        public static final int bottom_back = 0x7f07005e;
-        public static final int btn_pressed = 0x7f07006f;
-        public static final int btn_unpressed = 0x7f070070;
-        public static final int frame = 0x7f070091;
-        public static final int ic_launcher = 0x7f07009a;
-        public static final int mask = 0x7f0700ae;
+        public static final int bottom = 0x7f080063;
+        public static final int bottom_back = 0x7f080064;
+        public static final int btn_pressed = 0x7f080075;
+        public static final int btn_unpressed = 0x7f080076;
+        public static final int frame = 0x7f08009d;
+        public static final int ic_launcher = 0x7f0800b1;
+        public static final int mask = 0x7f0800cd;
     }
     public static final class id {
         private id() {}
 
-        public static final int checkbox = 0x7f08003b;
-        public static final int primary = 0x7f0800a7;
-        public static final int summary = 0x7f0800e3;
-        public static final int title = 0x7f0800f2;
-        public static final int widget_frame = 0x7f08010b;
+        public static final int checkbox = 0x7f090038;
+        public static final int primary = 0x7f09009b;
+        public static final int summary = 0x7f0900d6;
+        public static final int title = 0x7f0900e3;
+        public static final int widget_frame = 0x7f0900fb;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int main = 0x7f0a0036;
-        public static final int preference = 0x7f0a0046;
-        public static final int preference_widget_checkbox = 0x7f0a0047;
+        public static final int main = 0x7f0b0038;
+        public static final int preference = 0x7f0b0048;
+        public static final int preference_widget_checkbox = 0x7f0b0049;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0c0028;
-        public static final int hello = 0x7f0c004b;
+        public static final int app_name = 0x7f0d0028;
+        public static final int hello = 0x7f0d005d;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] Preference = { 0x7f03002b, 0x7f03005d, 0x7f0300a2, 0x7f0300a4, 0x7f0300b6, 0x7f0300f3, 0x7f03014d, 0x7f03014e, 0x7f03014f, 0x7f03015f, 0x7f030179, 0x7f03017f, 0x7f030199, 0x7f03019a, 0x7f03019b, 0x7f0301cc, 0x7f0301cd, 0x7f0301e5 };
+        public static final int[] Preference = { 0x7f04002b, 0x7f04005d, 0x7f0400a2, 0x7f0400a4, 0x7f0400b6, 0x7f0400f3, 0x7f04014d, 0x7f04014e, 0x7f04014f, 0x7f04015f, 0x7f040179, 0x7f04017f, 0x7f040199, 0x7f04019a, 0x7f04019b, 0x7f0401cc, 0x7f0401cd, 0x7f0401e5 };
         public static final int Preference_alphabeticShortcut = 0;
         public static final int Preference_checkable = 1;
         public static final int Preference_defaultValue = 2;
@@ -98,6 +98,6 @@ public final class R {
     public static final class xml {
         private xml() {}
 
-        public static final int test4preference = 0x7f0f0001;
+        public static final int test4preference = 0x7f100002;
     }
 }

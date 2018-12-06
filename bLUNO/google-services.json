@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "14787565038",
+    "firebase_url": "https://blunolight.firebaseio.com",
+    "project_id": "blunolight",
+    "storage_bucket": "blunolight.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14787565038:android:727b87a04e0174fe",
+        "android_client_info": {
+          "package_name": "com.example.bluno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14787565038-ru5s9nlg2vo76b1elv5vlmkdbdamjfll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bluno",
+            "certificate_hash": "d752a02f9f14fd5803d0cbbe4baf262326096f31"
+          }
+        },
+        {
+          "client_id": "14787565038-j1dn6ki1kj7thtknc4mvbsbp9fmm26pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYpsPC2KJ7aGldMbdq4RU6yYFb-hX4_38"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14787565038-j1dn6ki1kj7thtknc4mvbsbp9fmm26pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

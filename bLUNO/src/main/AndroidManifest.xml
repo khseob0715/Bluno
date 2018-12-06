@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.bluno">
 
-    <uses-sdk android:targetSdkVersion="28" />
 
     <!-- Declare this required feature if you want to make the app available to BLE-capable
     devices only.  If you want to make your app available to devices that don't support BLE,
@@ -32,14 +31,25 @@
         android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
         tools:replace="android:icon,android:label,android:theme">
         <activity
-            android:name="com.example.bluno.BLUNOActivity"
+            android:name=".BLUNOActivity"
             android:label="@string/app_name" 
             android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
         <activity android:name="com.example.bluno.DeviceControlActivity"
             android:screenOrientation="portrait"/>
 

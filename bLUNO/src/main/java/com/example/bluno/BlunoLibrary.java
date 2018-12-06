@@ -33,12 +33,6 @@ public abstract class BlunoLibrary extends Activity{
 
 	private Context mainContext=this;
 
-	
-//	public BlunoLibrary(Context theContext) {
-//		
-//		mainContext=theContext;
-//	}
-	
 	public abstract void onConectionStateChange(connectionStateEnum theconnectionStateEnum);
 	public abstract void onSerialReceived(String theString);
 	public void serialSend(String theString){
@@ -53,9 +47,6 @@ public abstract class BlunoLibrary extends Activity{
 	
 	
 	private String mBaudrateBuffer = "AT+CURRUART="+mBaudrate+"\r\n";
-	
-//	byte[] mBaudrateBuffer={0x32,0x00,(byte) (mBaudrate & 0xFF),(byte) ((mBaudrate>>8) & 0xFF),(byte) ((mBaudrate>>16) & 0xFF),0x00};;
-	
 	
 	public void serialBegin(int baud){
 		mBaudrate=baud;

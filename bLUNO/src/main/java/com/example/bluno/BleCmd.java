@@ -13,5 +13,9 @@ public class BleCmd {
 	public static final String Car = "CAR";
 	public static final String Sit = "SIT";
 
+	public static final String Theme = "THEME";
+	public static final String Custom = "CUSTOM";
+	public static final String Sleep = "SLEEP";
+	public static final String Speech = "SPEECH";
 
 }

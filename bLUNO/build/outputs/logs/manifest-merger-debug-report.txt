@@ -1,601 +1,613 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-26:12
-MERGED from [:holoColorPickermaster] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
-MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\d99bfe9e1e23ae1f82275d9287ad5514\AndroidManifest.xml:2:1-15:12
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:2:1-25:12
-MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:2:1-17:12
-MERGED from [com.jaredrummler:colorpicker:1.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\colorpicker-1.0.1.aar\35b0089975174aaa7996e73521f200ba\AndroidManifest.xml:2:1-10:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\05def099cf664ab9eb94816a98cc230a\AndroidManifest.xml:17:1-22:12
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\34c1e06f9ce0ee63e7126905da4e4d12\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f9235f7b86fa08c889307bbbd7b96c80\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\9b4efaa659cec488a63fd75e659cdbea\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:17:1-39:12
-MERGED from [com.google.firebase:firebase-database:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\e933eb40fbf3fd990d91eff7ec1f5859\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\f27f951a7051dfabbfed80d9e6914d29\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\4dab7b3c2432ed1d500f6cb3a7ce0980\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\2acfa2edc666ac6b435c74165422cf54\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\70d88703895040dd8b9a486d752c8f47\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\23589e9be81a13d66c8d238c6c0da441\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\264a11ab9ab803d2f538936e155a4593\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\4f5c9bc96d14834dd44477f4900c8f7b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\10d99f76bb7a4ec27cd7811ffd9571eb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:2:1-14:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c932faaf8ac5a6e65d6d2d04dd235a99\AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\24a4f835062f7bfdea4c62253c5d00eb\AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.skydoves:colorpickerview:2.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\colorpickerview-2.0.1.aar\099a2995a6f9c836dd79ade4fa798d1b\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ff6d784c10627aed324f902625f97f63\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\e06c32f05edb1039d1554b651871bed3\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.persistence:db:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\3630dbe768cdef55b4ce4ed881f05c5d\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0776b17ed277d18d427b749c869ceeb0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\24d492e00e6b2cff87d6898f02334e41\AndroidManifest.xml:2:1-13:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\b019d57cb988b420346afca204353918\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a3fef74f26078e35ae60fbacdacd05f4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\53f8116dcd9ea141cedd9ca7b6b99922\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\2f0b3fc80b66c35db470d5163d36b6b0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef650124f36a3a58a96c8f6bded84501\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\4f7ec9fe4e88037e45567322d699da80\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\86c5b018809c3652253cd2aca12482dd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c677be0cec9c5840f911f6dc40c37b48\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e53504b130f26c371f79f9fe4465369c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c3fbed9402af1fffc1beca0f5a03da10\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\facdc1570a1fba3663a2051c6bba1f40\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c369993938f9a425980ad4b9bf2c7d10\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a8096c1b5fe33042355ea78de28b5dc0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\76ee76cb5ff81c7d67cd1c954a8d151d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\07e55b843b20ad01fbe8249b0d0277ed\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2bf7e4cd1f953e207ae973e0035c1693\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\14c5320ef87800c5914df7c60540269d\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\498eb14877d6b33ec72d750afe378465\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\562486026bc3566733802491cb4c8c1d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\577236dba33acd61f135babd6432f239\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fd1479f9a9614bf067171debc8136bf5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\792b24d557b23c93307ed3d93ef6634e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\66b22c021ce39e7ccf2740050c3da0b2\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f3f61612d74c380d43ce0682fd41c813\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b9fc39ee99adcac354886e42a2051959\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f0c585bb8d20a04ab04247500d7cae6\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b478ece0190c292815c5df1464d7e794\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\649c864e0618c22de86b512c7c84c460\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\4c4ebdad410aa0be3f82cff0c2effae4\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\b4588e3b1599b550218340fca6e9015d\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\88e2d38461423421eafe17c77ff06392\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\67c50644d6b518fb8dff03881156d5b7\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\86bad0b3d23779636e0f812443deb37e\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\2dc8d4691ae8a09858f43c396fa91ff9\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\c3900cfdb21eb4fad5066807a5dd7166\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\ccae035dc55bec2ad4330bc01bca648f\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\74e5589b3a7cc591f04e433bfe1b50a4\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\c23460131b3c5ce691e95d34ad5bf614\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\4c84ca011fc043453de43bc145a35ac6\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\6f2ea78eb25abd6af68976b88a5a4233\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-26:12
+MERGED from [:holoColorPickermaster] C:\Users\YuGyungho\Desktop\Bluno\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:2:1-15:12
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:2:1-25:12
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:2:1-17:12
+MERGED from [com.jaredrummler:colorpicker:1.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\colorpicker-1.0.1.aar\acb58ba07b16aed7efabb9c07105ab39\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\30dcf42307e18b41f6d6a5aea3e3ef50\AndroidManifest.xml:17:1-22:12
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b74d4ce1cdb0a5d135365958c6190d79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\528632e05dce619a8989b03db84c32c7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\05767f7eb6b5d2937ccbe0bb5f473d19\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-database:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\170ebd750affa2d97e852127766bcd78\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\bb9f6e1120ec72b186545cf5346d8204\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\85cb2fef31dfb3697c03bd6a21d01862\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\be49a25bb004f6ee221e99c9edd4476e\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\5d744cff68487e3bd4f2e7d56ef10d61\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\c22ee4ca0151855739561e2663252554\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\9a81216bd6527f4c8a62866f1623350d\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8de000a33ba4e1003ee182f8ea4a04f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\2b9d0eab290b05b380e4b80a3f28d7d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7b4338e3e0416c907d16981be0616003\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c6e3555033add201e5d9fa70d1bc7c74\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.skydoves:colorpickerview:2.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\colorpickerview-2.0.1.aar\b829e66ebb4022123d70b0b06964efe9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\22b1f787afa8b04422d9b76a84593b7a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\77079c6354d22877e90f8ef117299cf8\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\be20f1a9855c7ea4eb98ed730bd08569\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cfd484b38de5f82ccd7ed04b42c19bff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\6cad31961cd2f44018d0cfe78651abd0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\41f26f67360fa4255278add0ac9d7502\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\258bab09469d1d37071696e213e4ff8b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d1c6a736b18585e617a4f68e57734adf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1bdbb4022b827f68ff0c715f213f8bb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\03ba178cd4310cf6b14c199b8088768e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b73f77e9e021c8639ed9451ffc022e73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2211887ba21b609d8dbf4e43eb7dc226\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b3b542a873a01f8c8af828c6da1b2310\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\73608ce89feb5a2a969ce8b90d8d3e66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3eb6d534dc8a33987ebcb415764463ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2fd56fda81ec56d26c0b99d3923ab9d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\284403a34a37c987eba5f08687a4ba74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\453970f415e2acddd1da985fd706abc3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1352bff765cf610d555a175e5dd56761\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55c37b6744eb1ef095abc04128bf17c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\986a570d98d8cf95d63be3ac9cf84b4b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc8b3a32e4bada250ca74a8b2a94a8c6\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f06c21a80b42f4fe5000b757d6a0e2e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ec245d46b84bdb53bfe67facd32207ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2f2b9ef45678b280b77e53395b3fd7ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3f9850776f17bceedf667c15dcd6227e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ff99e5eb4f3042d9d01125d7c94febfa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4c22d0a987dba84e0465b84b96d63e50\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d777427e1805b98edbbba775db7719e2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76ace0327b0d4b90d33f85856c82905d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\34c249eaa27ae4bf4592ed17efda57da\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a2fbc9a6cc4539fb2349c89015d4f4be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\62a6c9e5bd0ec0cf5e16772261b244ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\0199f97dce544cc40f72c71d19dcb7e4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\2fd2fdf0a9e6ce8f1f8656a9a933b64c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\9aec1bbb383a0028448da3494ddfe4e0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\aa1ecec46a840ec45be574a354c2f50c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\6b1147b7a81a9cb05ac7467e535903b8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\097f0d427c8cfa7aa37b9275d07bd52c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\fea86585fd5adb7fd12a63f322417aa5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\565cf75eda046491c1705acca88559c0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\71138fa62ed162dfa3437a0a88eed826\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\e02ca7ac6b1db434151ab6d5f08aad1d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\8f409675dbfc7720cee7f686aec806dc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\c80fc67d4b08406ee5f5158e7f369d23\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:4:5-32
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:5-47
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:5-47
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:5-47
-MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:holoColorPickermaster] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:holoColorPickermaster] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\d99bfe9e1e23ae1f82275d9287ad5514\AndroidManifest.xml:7:5-9:41
-MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\d99bfe9e1e23ae1f82275d9287ad5514\AndroidManifest.xml:7:5-9:41
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:7:5-9:41
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:7:5-9:41
-MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:5:5-7:41
-MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.jaredrummler:colorpicker:1.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\colorpicker-1.0.1.aar\35b0089975174aaa7996e73521f200ba\AndroidManifest.xml:6:5-8:41
-MERGED from [com.jaredrummler:colorpicker:1.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\colorpicker-1.0.1.aar\35b0089975174aaa7996e73521f200ba\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:design:27.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\05def099cf664ab9eb94816a98cc230a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\05def099cf664ab9eb94816a98cc230a\AndroidManifest.xml:20:5-44
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:5:5-7:41
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\34c1e06f9ce0ee63e7126905da4e4d12\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\34c1e06f9ce0ee63e7126905da4e4d12\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f9235f7b86fa08c889307bbbd7b96c80\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f9235f7b86fa08c889307bbbd7b96c80\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\9b4efaa659cec488a63fd75e659cdbea\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\9b4efaa659cec488a63fd75e659cdbea\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\e933eb40fbf3fd990d91eff7ec1f5859\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\e933eb40fbf3fd990d91eff7ec1f5859\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\f27f951a7051dfabbfed80d9e6914d29\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\f27f951a7051dfabbfed80d9e6914d29\AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\4dab7b3c2432ed1d500f6cb3a7ce0980\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\4dab7b3c2432ed1d500f6cb3a7ce0980\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\2acfa2edc666ac6b435c74165422cf54\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\2acfa2edc666ac6b435c74165422cf54\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\70d88703895040dd8b9a486d752c8f47\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\70d88703895040dd8b9a486d752c8f47\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\23589e9be81a13d66c8d238c6c0da441\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\23589e9be81a13d66c8d238c6c0da441\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\264a11ab9ab803d2f538936e155a4593\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\264a11ab9ab803d2f538936e155a4593\AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\4f5c9bc96d14834dd44477f4900c8f7b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\4f5c9bc96d14834dd44477f4900c8f7b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\10d99f76bb7a4ec27cd7811ffd9571eb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\10d99f76bb7a4ec27cd7811ffd9571eb\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:5:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c932faaf8ac5a6e65d6d2d04dd235a99\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c932faaf8ac5a6e65d6d2d04dd235a99\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\24a4f835062f7bfdea4c62253c5d00eb\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\24a4f835062f7bfdea4c62253c5d00eb\AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.skydoves:colorpickerview:2.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\colorpickerview-2.0.1.aar\099a2995a6f9c836dd79ade4fa798d1b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.skydoves:colorpickerview:2.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\colorpickerview-2.0.1.aar\099a2995a6f9c836dd79ade4fa798d1b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ff6d784c10627aed324f902625f97f63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\ff6d784c10627aed324f902625f97f63\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\e06c32f05edb1039d1554b651871bed3\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\e06c32f05edb1039d1554b651871bed3\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\3630dbe768cdef55b4ce4ed881f05c5d\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\3630dbe768cdef55b4ce4ed881f05c5d\AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0776b17ed277d18d427b749c869ceeb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0776b17ed277d18d427b749c869ceeb0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\24d492e00e6b2cff87d6898f02334e41\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\24d492e00e6b2cff87d6898f02334e41\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\b019d57cb988b420346afca204353918\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\b019d57cb988b420346afca204353918\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a3fef74f26078e35ae60fbacdacd05f4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\a3fef74f26078e35ae60fbacdacd05f4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\53f8116dcd9ea141cedd9ca7b6b99922\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\53f8116dcd9ea141cedd9ca7b6b99922\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\2f0b3fc80b66c35db470d5163d36b6b0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\2f0b3fc80b66c35db470d5163d36b6b0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef650124f36a3a58a96c8f6bded84501\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef650124f36a3a58a96c8f6bded84501\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\4f7ec9fe4e88037e45567322d699da80\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\4f7ec9fe4e88037e45567322d699da80\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\86c5b018809c3652253cd2aca12482dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\86c5b018809c3652253cd2aca12482dd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c677be0cec9c5840f911f6dc40c37b48\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c677be0cec9c5840f911f6dc40c37b48\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e53504b130f26c371f79f9fe4465369c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\e53504b130f26c371f79f9fe4465369c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c3fbed9402af1fffc1beca0f5a03da10\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c3fbed9402af1fffc1beca0f5a03da10\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\facdc1570a1fba3663a2051c6bba1f40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\facdc1570a1fba3663a2051c6bba1f40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c369993938f9a425980ad4b9bf2c7d10\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c369993938f9a425980ad4b9bf2c7d10\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a8096c1b5fe33042355ea78de28b5dc0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a8096c1b5fe33042355ea78de28b5dc0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\76ee76cb5ff81c7d67cd1c954a8d151d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\76ee76cb5ff81c7d67cd1c954a8d151d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\07e55b843b20ad01fbe8249b0d0277ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\07e55b843b20ad01fbe8249b0d0277ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2bf7e4cd1f953e207ae973e0035c1693\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2bf7e4cd1f953e207ae973e0035c1693\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\14c5320ef87800c5914df7c60540269d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\14c5320ef87800c5914df7c60540269d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\498eb14877d6b33ec72d750afe378465\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\498eb14877d6b33ec72d750afe378465\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\562486026bc3566733802491cb4c8c1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\562486026bc3566733802491cb4c8c1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\577236dba33acd61f135babd6432f239\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\577236dba33acd61f135babd6432f239\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fd1479f9a9614bf067171debc8136bf5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fd1479f9a9614bf067171debc8136bf5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\792b24d557b23c93307ed3d93ef6634e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\792b24d557b23c93307ed3d93ef6634e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\66b22c021ce39e7ccf2740050c3da0b2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\66b22c021ce39e7ccf2740050c3da0b2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f3f61612d74c380d43ce0682fd41c813\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\f3f61612d74c380d43ce0682fd41c813\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b9fc39ee99adcac354886e42a2051959\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b9fc39ee99adcac354886e42a2051959\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f0c585bb8d20a04ab04247500d7cae6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f0c585bb8d20a04ab04247500d7cae6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b478ece0190c292815c5df1464d7e794\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b478ece0190c292815c5df1464d7e794\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\649c864e0618c22de86b512c7c84c460\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\649c864e0618c22de86b512c7c84c460\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\4c4ebdad410aa0be3f82cff0c2effae4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\4c4ebdad410aa0be3f82cff0c2effae4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\b4588e3b1599b550218340fca6e9015d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\b4588e3b1599b550218340fca6e9015d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\88e2d38461423421eafe17c77ff06392\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\88e2d38461423421eafe17c77ff06392\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\67c50644d6b518fb8dff03881156d5b7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\67c50644d6b518fb8dff03881156d5b7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\86bad0b3d23779636e0f812443deb37e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\86bad0b3d23779636e0f812443deb37e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\2dc8d4691ae8a09858f43c396fa91ff9\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\2dc8d4691ae8a09858f43c396fa91ff9\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\c3900cfdb21eb4fad5066807a5dd7166\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\c3900cfdb21eb4fad5066807a5dd7166\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\ccae035dc55bec2ad4330bc01bca648f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\ccae035dc55bec2ad4330bc01bca648f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\74e5589b3a7cc591f04e433bfe1b50a4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\74e5589b3a7cc591f04e433bfe1b50a4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\c23460131b3c5ce691e95d34ad5bf614\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\c23460131b3c5ce691e95d34ad5bf614\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\4c84ca011fc043453de43bc145a35ac6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\4c84ca011fc043453de43bc145a35ac6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\6f2ea78eb25abd6af68976b88a5a4233\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\6f2ea78eb25abd6af68976b88a5a4233\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:5-47
-INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:5-47
-	android:targetSdkVersion
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:15-44
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:6:5-47
-		INJECTED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:12:5-66
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:11:5-66
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:12:22-64
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:14:5-80
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:11:5-81
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:13:5-80
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:11:5-81
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:15:5-79
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:15:22-77
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:14:22-77
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:16:5-64
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:15:5-64
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:16:22-62
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:15:22-62
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:18:5-89
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:17:5-89
 	android:required
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:18:64-87
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:17:64-87
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:18:19-63
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:17:19-63
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:20:5-67
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:20:22-65
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:19:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:21:5-73
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:20:5-73
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:21:22-71
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:20:22-71
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:23:5-79
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:23:22-76
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:24:5-81
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:24:22-78
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:23:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:26:5-70
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:25:5-70
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:26:22-68
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:25:22-68
 application
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:28:5-47:19
-MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-24:19
-MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-24:19
-MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\d99bfe9e1e23ae1f82275d9287ad5514\AndroidManifest.xml:11:5-13:38
-MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\d99bfe9e1e23ae1f82275d9287ad5514\AndroidManifest.xml:11:5-13:38
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:13:5-23:19
-MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:13:5-23:19
-MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:9:5-15:19
-MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:9:5-15:19
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:9:5-15:19
-MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:9:5-15:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f9235f7b86fa08c889307bbbd7b96c80\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\f9235f7b86fa08c889307bbbd7b96c80\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\9b4efaa659cec488a63fd75e659cdbea\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\9b4efaa659cec488a63fd75e659cdbea\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:22:5-30:19
-MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:22:5-30:19
-MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:34:5-57:19
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\23589e9be81a13d66c8d238c6c0da441\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\23589e9be81a13d66c8d238c6c0da441\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:22:5-26:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:7:5-12:19
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c932faaf8ac5a6e65d6d2d04dd235a99\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c932faaf8ac5a6e65d6d2d04dd235a99\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\24d492e00e6b2cff87d6898f02334e41\AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\24d492e00e6b2cff87d6898f02334e41\AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\b019d57cb988b420346afca204353918\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\b019d57cb988b420346afca204353918\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2bf7e4cd1f953e207ae973e0035c1693\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2bf7e4cd1f953e207ae973e0035c1693\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\14c5320ef87800c5914df7c60540269d\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\14c5320ef87800c5914df7c60540269d\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\649c864e0618c22de86b512c7c84c460\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\649c864e0618c22de86b512c7c84c460\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\4c4ebdad410aa0be3f82cff0c2effae4\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\4c4ebdad410aa0be3f82cff0c2effae4\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\b4588e3b1599b550218340fca6e9015d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\b4588e3b1599b550218340fca6e9015d\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\88e2d38461423421eafe17c77ff06392\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\88e2d38461423421eafe17c77ff06392\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\67c50644d6b518fb8dff03881156d5b7\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\67c50644d6b518fb8dff03881156d5b7\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\86bad0b3d23779636e0f812443deb37e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\86bad0b3d23779636e0f812443deb37e\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\2dc8d4691ae8a09858f43c396fa91ff9\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\2dc8d4691ae8a09858f43c396fa91ff9\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\c3900cfdb21eb4fad5066807a5dd7166\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\c3900cfdb21eb4fad5066807a5dd7166\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\ccae035dc55bec2ad4330bc01bca648f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\ccae035dc55bec2ad4330bc01bca648f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\74e5589b3a7cc591f04e433bfe1b50a4\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\74e5589b3a7cc591f04e433bfe1b50a4\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\c23460131b3c5ce691e95d34ad5bf614\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\c23460131b3c5ce691e95d34ad5bf614\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\4c84ca011fc043453de43bc145a35ac6\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\4c84ca011fc043453de43bc145a35ac6\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\6f2ea78eb25abd6af68976b88a5a4233\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\6f2ea78eb25abd6af68976b88a5a4233\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:27:5-57:19
+MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-24:19
+MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-24:19
+MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:11:5-13:38
+MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:11:5-13:38
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:13:5-23:19
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:13:5-23:19
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:9:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\528632e05dce619a8989b03db84c32c7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\528632e05dce619a8989b03db84c32c7\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\05767f7eb6b5d2937ccbe0bb5f473d19\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\05767f7eb6b5d2937ccbe0bb5f473d19\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\c22ee4ca0151855739561e2663252554\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\c22ee4ca0151855739561e2663252554\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7b4338e3e0416c907d16981be0616003\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7b4338e3e0416c907d16981be0616003\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\6cad31961cd2f44018d0cfe78651abd0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\6cad31961cd2f44018d0cfe78651abd0\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\41f26f67360fa4255278add0ac9d7502\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\41f26f67360fa4255278add0ac9d7502\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\986a570d98d8cf95d63be3ac9cf84b4b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\986a570d98d8cf95d63be3ac9cf84b4b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc8b3a32e4bada250ca74a8b2a94a8c6\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc8b3a32e4bada250ca74a8b2a94a8c6\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\62a6c9e5bd0ec0cf5e16772261b244ee\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\62a6c9e5bd0ec0cf5e16772261b244ee\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\0199f97dce544cc40f72c71d19dcb7e4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\0199f97dce544cc40f72c71d19dcb7e4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\2fd2fdf0a9e6ce8f1f8656a9a933b64c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\2fd2fdf0a9e6ce8f1f8656a9a933b64c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\9aec1bbb383a0028448da3494ddfe4e0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\9aec1bbb383a0028448da3494ddfe4e0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\aa1ecec46a840ec45be574a354c2f50c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\aa1ecec46a840ec45be574a354c2f50c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\6b1147b7a81a9cb05ac7467e535903b8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\6b1147b7a81a9cb05ac7467e535903b8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\097f0d427c8cfa7aa37b9275d07bd52c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\097f0d427c8cfa7aa37b9275d07bd52c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\fea86585fd5adb7fd12a63f322417aa5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\fea86585fd5adb7fd12a63f322417aa5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\565cf75eda046491c1705acca88559c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\565cf75eda046491c1705acca88559c0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\71138fa62ed162dfa3437a0a88eed826\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\71138fa62ed162dfa3437a0a88eed826\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\e02ca7ac6b1db434151ab6d5f08aad1d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\e02ca7ac6b1db434151ab6d5f08aad1d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\8f409675dbfc7720cee7f686aec806dc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\8f409675dbfc7720cee7f686aec806dc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\c80fc67d4b08406ee5f5158e7f369d23\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\c80fc67d4b08406ee5f5158e7f369d23\AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2bf7e4cd1f953e207ae973e0035c1693\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\986a570d98d8cf95d63be3ac9cf84b4b\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\d99bfe9e1e23ae1f82275d9287ad5514\AndroidManifest.xml:13:9-35
+		ADDED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:31:9-41
-		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:9-29
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:30:9-41
+		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:9-29
 	android:icon
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:30:9-45
-		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-47
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:29:9-45
+		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-47
 	android:allowBackup
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:28:9-35
 	android:theme
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:32:9-73
-		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:9-62
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:31:9-73
+		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:9-62
 	tools:replace
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:33:9-65
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:32:9-65
 activity#com.example.bluno.BLUNOActivity
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:34:9-42:20
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:33:9-37:20
 	android:screenOrientation
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:37:13-49
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:36:13-49
 	android:label
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:35:13-45
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:35:13-59
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:34:13-42
+activity#com.example.bluno.Activity.SplashActivity
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:39:9-46:20
+	android:theme
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:40:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:38:13-41:29
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:42:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:40:17-77
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:44:27-74
+activity#com.example.bluno.Activity.LoginActivity
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:48:9-51:20
+	android:theme
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:50:13-69
+	android:name
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:49:13-51
 activity#com.example.bluno.DeviceControlActivity
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:43:9-44:51
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:53:9-54:51
 	android:screenOrientation
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:54:13-49
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:43:19-73
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:53:19-73
 service#com.example.bluno.BluetoothLeService
-ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:46:9-94
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:9-94
 	android:enabled
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:46:70-92
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:70-92
 	android:name
-		ADDED from C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\src\main\AndroidManifest.xml:46:18-69
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:18-69
+uses-sdk
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:holoColorPickermaster] C:\Users\YuGyungho\Desktop\Bluno\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:holoColorPickermaster] C:\Users\YuGyungho\Desktop\Bluno\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:7:5-9:41
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:7:5-9:41
+MERGED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:7:5-9:41
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jaredrummler:colorpicker:1.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\colorpicker-1.0.1.aar\acb58ba07b16aed7efabb9c07105ab39\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:colorpicker:1.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\colorpicker-1.0.1.aar\acb58ba07b16aed7efabb9c07105ab39\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\30dcf42307e18b41f6d6a5aea3e3ef50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\30dcf42307e18b41f6d6a5aea3e3ef50\AndroidManifest.xml:20:5-44
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b74d4ce1cdb0a5d135365958c6190d79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b74d4ce1cdb0a5d135365958c6190d79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\528632e05dce619a8989b03db84c32c7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\528632e05dce619a8989b03db84c32c7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\05767f7eb6b5d2937ccbe0bb5f473d19\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-12.0.1.aar\05767f7eb6b5d2937ccbe0bb5f473d19\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\170ebd750affa2d97e852127766bcd78\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-12.0.1.aar\170ebd750affa2d97e852127766bcd78\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\bb9f6e1120ec72b186545cf5346d8204\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-12.0.1.aar\bb9f6e1120ec72b186545cf5346d8204\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\85cb2fef31dfb3697c03bd6a21d01862\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-12.0.1.aar\85cb2fef31dfb3697c03bd6a21d01862\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\be49a25bb004f6ee221e99c9edd4476e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-12.0.1.aar\be49a25bb004f6ee221e99c9edd4476e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\5d744cff68487e3bd4f2e7d56ef10d61\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-12.0.1.aar\5d744cff68487e3bd4f2e7d56ef10d61\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\c22ee4ca0151855739561e2663252554\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-12.0.1.aar\c22ee4ca0151855739561e2663252554\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\9a81216bd6527f4c8a62866f1623350d\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-12.0.1.aar\9a81216bd6527f4c8a62866f1623350d\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8de000a33ba4e1003ee182f8ea4a04f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\8de000a33ba4e1003ee182f8ea4a04f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\2b9d0eab290b05b380e4b80a3f28d7d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\2b9d0eab290b05b380e4b80a3f28d7d6\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:5:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7b4338e3e0416c907d16981be0616003\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\7b4338e3e0416c907d16981be0616003\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c6e3555033add201e5d9fa70d1bc7c74\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c6e3555033add201e5d9fa70d1bc7c74\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.skydoves:colorpickerview:2.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\colorpickerview-2.0.1.aar\b829e66ebb4022123d70b0b06964efe9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:colorpickerview:2.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\colorpickerview-2.0.1.aar\b829e66ebb4022123d70b0b06964efe9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\22b1f787afa8b04422d9b76a84593b7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\22b1f787afa8b04422d9b76a84593b7a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\77079c6354d22877e90f8ef117299cf8\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\db-framework-1.0.0.aar\77079c6354d22877e90f8ef117299cf8\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\be20f1a9855c7ea4eb98ed730bd08569\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\db-1.0.0.aar\be20f1a9855c7ea4eb98ed730bd08569\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:transition:27.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cfd484b38de5f82ccd7ed04b42c19bff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cfd484b38de5f82ccd7ed04b42c19bff\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\6cad31961cd2f44018d0cfe78651abd0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\6cad31961cd2f44018d0cfe78651abd0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\41f26f67360fa4255278add0ac9d7502\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\41f26f67360fa4255278add0ac9d7502\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\258bab09469d1d37071696e213e4ff8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\258bab09469d1d37071696e213e4ff8b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d1c6a736b18585e617a4f68e57734adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d1c6a736b18585e617a4f68e57734adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1bdbb4022b827f68ff0c715f213f8bb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1bdbb4022b827f68ff0c715f213f8bb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\03ba178cd4310cf6b14c199b8088768e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\03ba178cd4310cf6b14c199b8088768e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b73f77e9e021c8639ed9451ffc022e73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b73f77e9e021c8639ed9451ffc022e73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2211887ba21b609d8dbf4e43eb7dc226\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2211887ba21b609d8dbf4e43eb7dc226\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b3b542a873a01f8c8af828c6da1b2310\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\b3b542a873a01f8c8af828c6da1b2310\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\73608ce89feb5a2a969ce8b90d8d3e66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\73608ce89feb5a2a969ce8b90d8d3e66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3eb6d534dc8a33987ebcb415764463ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3eb6d534dc8a33987ebcb415764463ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2fd56fda81ec56d26c0b99d3923ab9d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2fd56fda81ec56d26c0b99d3923ab9d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\284403a34a37c987eba5f08687a4ba74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\284403a34a37c987eba5f08687a4ba74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\453970f415e2acddd1da985fd706abc3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\453970f415e2acddd1da985fd706abc3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1352bff765cf610d555a175e5dd56761\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1352bff765cf610d555a175e5dd56761\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55c37b6744eb1ef095abc04128bf17c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\55c37b6744eb1ef095abc04128bf17c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\986a570d98d8cf95d63be3ac9cf84b4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\986a570d98d8cf95d63be3ac9cf84b4b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc8b3a32e4bada250ca74a8b2a94a8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc8b3a32e4bada250ca74a8b2a94a8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f06c21a80b42f4fe5000b757d6a0e2e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\f06c21a80b42f4fe5000b757d6a0e2e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ec245d46b84bdb53bfe67facd32207ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\ec245d46b84bdb53bfe67facd32207ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2f2b9ef45678b280b77e53395b3fd7ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\2f2b9ef45678b280b77e53395b3fd7ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3f9850776f17bceedf667c15dcd6227e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3f9850776f17bceedf667c15dcd6227e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ff99e5eb4f3042d9d01125d7c94febfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\ff99e5eb4f3042d9d01125d7c94febfa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4c22d0a987dba84e0465b84b96d63e50\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\4c22d0a987dba84e0465b84b96d63e50\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d777427e1805b98edbbba775db7719e2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d777427e1805b98edbbba775db7719e2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76ace0327b0d4b90d33f85856c82905d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\76ace0327b0d4b90d33f85856c82905d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\34c249eaa27ae4bf4592ed17efda57da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\34c249eaa27ae4bf4592ed17efda57da\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a2fbc9a6cc4539fb2349c89015d4f4be\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a2fbc9a6cc4539fb2349c89015d4f4be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\62a6c9e5bd0ec0cf5e16772261b244ee\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-config-license-12.0.1.aar\62a6c9e5bd0ec0cf5e16772261b244ee\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\0199f97dce544cc40f72c71d19dcb7e4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-12.0.1.aar\0199f97dce544cc40f72c71d19dcb7e4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\2fd2fdf0a9e6ce8f1f8656a9a933b64c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-license-12.0.1.aar\2fd2fdf0a9e6ce8f1f8656a9a933b64c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\9aec1bbb383a0028448da3494ddfe4e0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-12.0.1.aar\9aec1bbb383a0028448da3494ddfe4e0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\aa1ecec46a840ec45be574a354c2f50c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-license-12.0.1.aar\aa1ecec46a840ec45be574a354c2f50c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\6b1147b7a81a9cb05ac7467e535903b8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-12.0.1.aar\6b1147b7a81a9cb05ac7467e535903b8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\097f0d427c8cfa7aa37b9275d07bd52c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\097f0d427c8cfa7aa37b9275d07bd52c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\fea86585fd5adb7fd12a63f322417aa5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-license-12.0.1.aar\fea86585fd5adb7fd12a63f322417aa5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\565cf75eda046491c1705acca88559c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-12.0.1.aar\565cf75eda046491c1705acca88559c0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\71138fa62ed162dfa3437a0a88eed826\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-12.0.1.aar\71138fa62ed162dfa3437a0a88eed826\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\e02ca7ac6b1db434151ab6d5f08aad1d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\e02ca7ac6b1db434151ab6d5f08aad1d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\8f409675dbfc7720cee7f686aec806dc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\8f409675dbfc7720cee7f686aec806dc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\c80fc67d4b08406ee5f5158e7f369d23\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\c80fc67d4b08406ee5f5158e7f369d23\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 activity#me.imid.movablecheckbox.MovableCheckboxActivity
-ADDED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:9-23:20
+ADDED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:9-23:20
 	android:label
-		ADDED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-33
+		ADDED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-33
 	android:name
-		ADDED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-75
+		ADDED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-75
 provider#android.support.v4.content.FileProvider
-ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:14:9-22:20
+ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:14:9-22:20
 	android:grantUriPermissions
-		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:18:13-47
+		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:18:13-47
 	android:authorities
-		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:16:13-60
+		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:16:13-60
 	android:exported
-		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:17:13-37
+		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:15:13-67
+		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:15:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:19:13-21:58
+ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:19:13-21:58
 	android:resource
-		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:21:17-55
+		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:21:17-55
 	android:name
-		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\f606accd616b90f5bee354443e6dd91f\AndroidManifest.xml:20:17-67
+		ADDED from [gun0912.ted:tedbottompicker:1.2.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedbottompicker-1.2.6.aar\6fdb8a9ca8f879046c68b6f9ab6d4129\AndroidManifest.xml:20:17-67
 activity#com.gun0912.tedpermission.TedPermissionActivity
-ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:10:9-14:67
+ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:10:9-14:67
 	android:screenOrientation
-		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:13:13-52
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:13:13-52
 	android:configChanges
-		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:12:13-144
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:12:13-144
 	android:theme
-		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:14:13-64
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:14:13-64
 	android:name
-		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\dbf7bcf93dd37fa7007454e8f30d54d7\AndroidManifest.xml:11:13-75
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedpermission-2.2.2.aar\900f5347af5ae7a812d6b4d1e2e57914\AndroidManifest.xml:11:13-75
 activity#com.gun0912.tedonactivityresult.ProxyActivity
-ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:10:9-14:75
+ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:10:9-14:75
 	android:screenOrientation
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:13:13-52
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:13:13-52
 	android:configChanges
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:12:13-144
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:12:13-144
 	android:theme
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:14:13-72
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:14:13-72
 	android:name
-		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\e38692db3de66ee7d2d231792fa35233\AndroidManifest.xml:11:13-73
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\tedonactivityresult-1.0.6.aar\d6799208eeb1ee2be1f83fd05621a699\AndroidManifest.xml:11:13-73
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:23:9-29:75
+ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:25:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:27:13-48
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:27:13-48
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:26:13-36
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:26:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:28:13-102
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:28:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:29:13-72
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:29:13-72
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\11548210ba911f136b7b56c4cb849dd4\AndroidManifest.xml:24:13-85
+		ADDED from [com.google.firebase:firebase-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-auth-12.0.1.aar\a5f1b357f8245f2746b3e02c52c357c7\AndroidManifest.xml:24:13-85
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:33:9-36:110
+ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:33:9-36:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:35:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\2883d2d29fb3f74350399b6a90d76b59\AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-12.0.1.aar\d1c204ad86e3f8ead6868a43d3289df5\AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\6640f3a51eb8d4874098cffea8d10ef2\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-base-12.0.1.aar\c2755629affd5074413ab86a19a3fbb6\AndroidManifest.xml:24:13-79
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:22:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:24:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:26:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:29:9-63
 permission#com.example.bluno.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:28:5-30:47
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:30:9-44
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:30:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:29:9-63
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:29:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:32:22-76
 uses-permission#com.example.bluno.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:32:5-79
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:32:22-76
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:32:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:35:9-44:20
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:35:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:38:13-73
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:38:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:36:13-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:36:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:39:13-43:29
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.bluno
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:39:13-43:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:39:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:40:17-81
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:40:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:40:25-78
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:40:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:42:27-58
 category#com.example.bluno
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:42:17-61
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:42:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:42:27-58
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:42:27-58
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\3d2de1458ab8e257a849903ab8661737\AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\8f38a5a617d1ff93b9f06ae39806350b\AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:8:9-12:39
+ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:8:9-12:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:10:13-72
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:11:13-37
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:11:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:12:13-36
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:12:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\f050bf5fdb44c806fc23f5507ce6f41e\AndroidManifest.xml:9:13-77
+		ADDED from [com.google.firebase:firebase-common:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-common-12.0.1.aar\11c5860a4fa4bf5191e8b39c36ac8355\AndroidManifest.xml:9:13-77
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\384db114e4ba67b57f7b99d00a013b93\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-basement-12.0.1.aar\203f201bd2c12348747bffcce1c9d239\AndroidManifest.xml:24:13-58
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Aiden\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de6fffd5ab176db6a3c69986af7b8420\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\79a7cc3db1f51b63d032d00400215d59\AndroidManifest.xml:9:13-64

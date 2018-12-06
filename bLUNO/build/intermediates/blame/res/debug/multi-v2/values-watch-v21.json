@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Aiden\\Desktop\\BlunoAccessoryShieldDemo-master\\Android\\BLUNO\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\34c1e06f9ce0ee63e7126905da4e4d12\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
