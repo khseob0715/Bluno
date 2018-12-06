@@ -60,10 +60,6 @@ public class DrawFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-//        if (context instanceof DrawFragmentListener)
-//            mListener = (DrawFragmentListener) context;
-//        else
-//            throw new RuntimeException(context.toString() + " must implement DrawFragmentListener");
     }
 
     @Override
@@ -142,7 +138,7 @@ public class DrawFragment extends Fragment {
             body.post(new Runnable() {
                 @Override
                 public void run() {
-                    generate(10, 10);
+                    generate(10, 17);
                 }
             });
         }
@@ -164,8 +160,8 @@ public class DrawFragment extends Fragment {
             final LinearLayout ll = new LinearLayout(getContext());
             ll.setOrientation(LinearLayout.VERTICAL);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            params.setMarginStart(100);
-            params.setMarginEnd(100);
+            params.setMarginStart(50);
+            params.setMarginEnd(50);
             ll.setLayoutParams(params);
 
             // add slider

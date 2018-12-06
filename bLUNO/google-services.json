@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "14787565038-lu4aeqjlginkdrje142magvnomejfbfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bluno",
+            "certificate_hash": "8c80ce01dfa0cc5086c506fee5eb9f4f77384495"
+          }
+        },
+        {
           "client_id": "14787565038-j1dn6ki1kj7thtknc4mvbsbp9fmm26pj.apps.googleusercontent.com",
           "client_type": 3
         }

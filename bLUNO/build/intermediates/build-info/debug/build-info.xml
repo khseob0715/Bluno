@@ -5,89 +5,108 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1544091866184"
-    token="145027931440795666"
+    timestamp="1544110281356"
+    token="8117464482362096393"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3132" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="14" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1544089340994"
+        timestamp="1544105456005"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\instant-run-apk\debug\bLUNO-debug.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\instant-run-apk\debug\bLUNO-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="STATIC_INITIALIZER_CHANGE"
-        timestamp="1544089681461"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1544110193158"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\instant-run-apk\debug\bLUNO-debug.apk"
-            type="SPLIT_MAIN" />
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1544091866184"
+        timestamp="1544110281356"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\YuGyungho\Desktop\Bluno\bLUNO\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\Aiden\Desktop\BlunoAccessoryShieldDemo-master\Android\BLUNO\bLUNO\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
     </build>
 
