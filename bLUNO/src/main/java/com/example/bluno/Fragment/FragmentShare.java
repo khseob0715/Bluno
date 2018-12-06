@@ -17,7 +17,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.bluno.BLUNOActivity;
 import com.example.bluno.R;
 import com.example.bluno.model.LightModel;
 import com.google.firebase.database.DataSnapshot;
@@ -44,7 +46,7 @@ public class FragmentShare extends Fragment {
 
     public static int Once = 0;
 
-    public static int CustomPixel[] = new int[100];
+    public static int[] CustomPixel = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -125,13 +127,21 @@ public class FragmentShare extends Fragment {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                   // Toast.makeText(getContext(), String.format("%d 선택 %s", position + 1, lightModels.get(position).SharePixel.get(0)), Toast.LENGTH_LONG).show();
-                    //MainActivity.Modestates = 3; // CustomMode;
+                    Toast.makeText(getContext(), String.format("%d 선택 %s", position + 1, lightModels.get(position).SharePixel.get(0)), Toast.LENGTH_LONG).show();
                     int len = lightModels.get(position).SharePixel.size();
+                    String list = "";
                     for(int i = 0 ; i < len; i++) {
                         CustomPixel[i] = lightModels.get(position).SharePixel.get(i);
+                        if(BLUNOActivity.print) {
+                            list += String.valueOf(CustomPixel[i]);
+                            list += " ";
+                        }
                     }
-                   // MainActivity.Modestates = 10;
+                    if(BLUNOActivity.print)
+                        Toast.makeText(getContext(), list, Toast.LENGTH_SHORT).show();
+
+                    BLUNOActivity.Modestates = 3; // CustomMode;
+
                 }
 
                 // lightModels.get(position).pixelColor[lightModels.get(position).index - 1].getG_color(),

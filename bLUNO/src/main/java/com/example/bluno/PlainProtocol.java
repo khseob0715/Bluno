@@ -20,7 +20,7 @@ public class PlainProtocol {
 	  public StringBuffer mReceivedframe;                           //the frame of the protocol
 	  public StringBuffer mSendingFrame;                           //the frame of the protocol
 	  private static final int MaxFrameBufferLenth = 500;
-	  private static final int ContentMaxLenth = 5;
+	  private static final int ContentMaxLenth = 100;
 
 	  private void sendFrame()                       //send the frame prototype
 	  {

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-26:12
 MERGED from [:holoColorPickermaster] C:\Users\YuGyungho\Desktop\Bluno\holoColorPickermaster\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:2:1-15:12
@@ -79,22 +79,22 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1]
 MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\e02ca7ac6b1db434151ab6d5f08aad1d\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-connection-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-12.0.1.aar\8f409675dbfc7720cee7f686aec806dc\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-12.0.1.aar\c80fc67d4b08406ee5f5158e7f369d23\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
-INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:4:5-32
 		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-62:12
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2:11-69
@@ -145,7 +145,7 @@ ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:2
 	android:name
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:25:22-68
 application
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:27:5-60:19
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:27:5-57:19
 MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-24:19
 MERGED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-24:19
 MERGED from [com.shobhitpuri.custombuttons:google-signin:1.0.0] C:\Users\YuGyungho\.gradle\caches\transforms-1\files-1.1\google-signin-1.0.0.aar\083c444a0547e1ed3f38af4c39c6cbbc\AndroidManifest.xml:11:5-13:38
@@ -225,52 +225,52 @@ MERGED from [com.google.firebase:firebase-storage-common-license:12.0.1] C:\User
 	android:allowBackup
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:28:9-35
 	android:theme
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:31:9-73
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:31:9-59
 		REJECTED from [:meimidmovablecheckboxMovableCheckboxActivity] C:\Users\YuGyungho\Desktop\Bluno\meimidmovablecheckboxMovableCheckboxActivity\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:9-62
 	tools:replace
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:32:9-65
 activity#com.example.bluno.BLUNOActivity
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:33:9-43:20
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:33:9-37:20
 	android:screenOrientation
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:36:13-49
 	android:label
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:35:13-45
 	android:name
 		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:34:13-42
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:38:13-41:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:39:17-69
-	android:name
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:39:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:40:17-77
-	android:name
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:40:27-74
 activity#com.example.bluno.Activity.SplashActivity
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:45:9-49:20
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:39:9-46:20
 	android:theme
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:47:13-69
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:41:13-69
 	android:name
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:46:13-52
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:40:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:42:13-45:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:44:27-74
 activity#com.example.bluno.Activity.LoginActivity
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:51:9-54:20
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:48:9-51:20
 	android:theme
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:53:13-69
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:50:13-69
 	android:name
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:52:13-51
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:49:13-51
 activity#com.example.bluno.DeviceControlActivity
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:9-57:51
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:53:9-54:51
 	android:screenOrientation
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:57:13-49
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:54:13-49
 	android:name
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:19-73
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:53:19-73
 service#com.example.bluno.BluetoothLeService
-ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:59:9-94
+ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:9-94
 	android:enabled
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:59:70-92
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:70-92
 	android:name
-		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:59:18-69
+		ADDED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml:56:18-69
 uses-sdk
 INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\YuGyungho\Desktop\Bluno\bLUNO\src\main\AndroidManifest.xml

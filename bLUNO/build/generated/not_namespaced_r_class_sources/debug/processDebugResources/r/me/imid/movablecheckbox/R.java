@@ -53,18 +53,18 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int checkbox = 0x7f09004d;
-        public static final int primary = 0x7f0900c0;
-        public static final int summary = 0x7f090104;
-        public static final int title = 0x7f09011c;
-        public static final int widget_frame = 0x7f09013b;
+        public static final int checkbox = 0x7f09004c;
+        public static final int primary = 0x7f0900bf;
+        public static final int summary = 0x7f090103;
+        public static final int title = 0x7f09011b;
+        public static final int widget_frame = 0x7f090139;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int main = 0x7f0b003e;
-        public static final int preference = 0x7f0b004e;
-        public static final int preference_widget_checkbox = 0x7f0b004f;
+        public static final int main = 0x7f0b003f;
+        public static final int preference = 0x7f0b004f;
+        public static final int preference_widget_checkbox = 0x7f0b0050;
     }
     public static final class string {
         private string() {}

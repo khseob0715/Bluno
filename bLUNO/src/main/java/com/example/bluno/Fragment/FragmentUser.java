@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.example.bluno.BLUNOActivity;
 import com.example.bluno.R;
 import com.example.bluno.model.LightModel;
 import com.example.bluno.model.UserModel;
@@ -50,28 +51,24 @@ import gun0912.tedbottompicker.TedBottomPicker;
 public class FragmentUser extends Fragment {
 
     private static final String TAG = "FragmentUser";
-    RecyclerView mRecyclerView;
-    DatabaseReference mDatabase;
+    private RecyclerView mRecyclerView;
+    private DatabaseReference mDatabase;
 
-    StorageReference mStoragedRef;
+    private StorageReference mStoragedRef;
 
-    TextView UserName, UserId;
-    CircleImageView profileImage;
-    String UserUid;
+    private TextView UserName, UserId;
+    private CircleImageView profileImage;
+    private String UserUid;
 
-    ProgressBar progressBar;
-
+    private ProgressBar progressBar;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mStoragedRef = FirebaseStorage.getInstance().getReference();
         UserUid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-
-
     }
 
     @Nullable
@@ -91,18 +88,18 @@ public class FragmentUser extends Fragment {
 
         profileImage = (CircleImageView) view.findViewById(R.id.profile_image);
 
-//        Picasso.get().load(MainActivity.profileUri).into(profileImage, new com.squareup.picasso.Callback() {
-//            @Override
-//            public void onSuccess() {
-//                progressBar.setVisibility(View.GONE);
-//                profileImage.setVisibility(View.VISIBLE);
-//            }
-//
-//            @Override
-//            public void onError(Exception e) {
-//
-//            }
-//        });
+        Picasso.get().load(BLUNOActivity.profileUri).into(profileImage, new com.squareup.picasso.Callback() {
+            @Override
+            public void onSuccess() {
+                progressBar.setVisibility(View.GONE);
+                profileImage.setVisibility(View.VISIBLE);
+            }
+
+            @Override
+            public void onError(Exception e) {
+
+            }
+        });
 
 
         profileImage.setOnClickListener(new View.OnClickListener() {

@@ -1,14 +1,28 @@
 package com.example.bluno;
 
 import com.example.bluno.BleCmd;
+import com.example.bluno.Fragment.FragmentCustomize;
+import com.example.bluno.Fragment.FragmentMain;
+import com.example.bluno.Fragment.FragmentShare;
+import com.example.bluno.Fragment.FragmentUser;
 import com.example.bluno.ProgressWheel;
 import com.example.bluno.DeviceControlActivity;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.larswerkman.colorpicker.ColorPicker;
 import com.larswerkman.colorpicker.ColorPicker.OnColorChangedListener;
+
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -18,77 +32,71 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
+import android.widget.Toast;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BLUNOActivity extends BlunoLibrary {
-	
-    public final static String TAG = DeviceControlActivity.class.getSimpleName();
+
+	ImageView mainButton, themeButton, customizeButton, shareButton, userButton;
+
+	FragmentManager fragmentManager;
+	FragmentTransaction fragmentTransaction;
+
+	int Current_Fragment_Index = 1;
+	int Select_Fragment_Index;
+
+	Fragment Fragment_main, Fragment_share, Fragment_user, Fragment_custom;
+
+	public static Uri profileUri;
+
+	String UserUid;
+
+	public static boolean isColorChange = false;
+	public static boolean isLastSwitchOn = false;
+	public static boolean isMusicOn = true;
+	public static boolean isSleepOn = false;
+	public static boolean isSpeechOn = false;
+
+	/**************************************************************************************/
+	public final static String TAG = DeviceControlActivity.class.getSimpleName();
 
     private connectionStateEnum mConnectionState=connectionStateEnum.isNull;
 	private PlainProtocol mPlainProtocol= new PlainProtocol();
 	private ProgressWheel progressWheel;
 	private Typeface txtotf;
-	private boolean isColorChange=false;
 	private ImageView titleImageView;
 	private ImageView arduinoinputdispArea = null;
-	private EditText oledSubmitEditText = null;
 
-	private TextView analogTextDisp;
 
-	private ColorPicker picker;
-    
-    public static final int LEDMode=0;
-    public static final int RockerMode=1;
-    public static final int KnobMode=2;
-    private byte Modestates = LEDMode;
+	public static final int LEDMode = 0;
+	public static final int RockerMode = 1;
+	public static final int Theme = 2;
+	public static final int Custom = 3;
+	public static final int Sleep = 4;
+	public static final int Speech = 5;
+
+    public static byte Modestates = LEDMode;
 
 	private static Handler receivedHandler = new Handler();
-	private Runnable PotentiometerRunnable = new Runnable() {
-		@Override
-		public void run() {
-			if(Modestates == KnobMode)
-			{
-				serialSend(mPlainProtocol.write(BleCmd.Knob));
-				System.out.println("update BleCmdReadPotentiometer");
-			}
-			receivedHandler.postDelayed(PotentiometerRunnable, 50);
-		}
-	};
-	
-	
-	private Runnable temperatureRunnable = new Runnable() {
-		
-		@Override
-		public void run() {
-			serialSend(mPlainProtocol.write(BleCmd.Temperature));
-			System.out.println("update temperature");
-			receivedHandler.postDelayed(temperatureRunnable, 1000);
-		}
-	};
-	private Runnable humidityRunnable = new Runnable() {
-		
-		@Override
-		public void run() {
-			serialSend(mPlainProtocol.write(BleCmd.Humidity));
-			System.out.println("update humidity");
-			receivedHandler.postDelayed(humidityRunnable, 1000);
-		}
-	};
 
-	private boolean isLastSwitchOn=false;
+    public static boolean print = true;
+
 	private Runnable colorRunnable = new Runnable() {
 		
 		@Override
 		public void run() {
-			if(Modestates == LEDMode)
-			{
-				if(picker.mIsSwitchOn)
+			switch (Modestates) {
+				case LEDMode:
+				if(FragmentMain.picker.mIsSwitchOn)
 				{
 					if(isColorChange || (isLastSwitchOn==false))
 					{
 						serialSend(mPlainProtocol.write(BleCmd.RGBLed,
-									((picker.getColor() & 0x00ff0000)>>16),
-									((picker.getColor() & 0x0000ff00)>>8),
-									((picker.getColor() & 0x000000ff)>>0)
+									((FragmentMain.picker.getColor() & 0x00ff0000)>>16),
+									((FragmentMain.picker.getColor() & 0x0000ff00)>>8),
+									((FragmentMain.picker.getColor() & 0x000000ff)>>0)
 									));
 					}
 					isColorChange=false;
@@ -100,8 +108,46 @@ public class BLUNOActivity extends BlunoLibrary {
 					}
 					isLastSwitchOn=false;
 				}
+				break;
+				case RockerMode:
+					Log.e("Modestates","RockerMode");
+					if(isMusicOn){
+						serialSend(mPlainProtocol.write(BleCmd.Rocker));
+					}else{
+						serialSend(mPlainProtocol.write(BleCmd.RGBLed, 0, 0, 0));
+					}
+					break;
+				case Theme:
+					Log.e("Modestates","ThemeMode");
+					serialSend(mPlainProtocol.write(BleCmd.Theme,FragmentMain.selected_theme));
+					break;
+				case Custom:
+//                    if(print)
+//					    Toast.makeText(getApplicationContext(),"CustomMode",Toast.LENGTH_SHORT).show();
+
+					serialSend(mPlainProtocol.write(BleCmd.Custom,
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+					));
+					break;
+				case Sleep:
+					Log.e("Modestates","SleepMode");
+					serialSend(mPlainProtocol.write(BleCmd.Sleep));
+					break;
+				case Speech:
+					Log.e("Modestates","SpeechMode");
+					serialSend(mPlainProtocol.write(BleCmd.Speech, FragmentMain.SPEECH_ON));
+					break;
+				default:
+					break;
 			}
-//			System.out.println("update color");
+
 			receivedHandler.postDelayed(colorRunnable, 50);
 		}
 	};
@@ -125,47 +171,9 @@ public class BLUNOActivity extends BlunoLibrary {
     			if(Modestates == RockerMode)
         		{
             		System.out.println("received Rocker");
-            		
-            		switch(mPlainProtocol.receivedContent[0]){
-		        	case 0:	//None input
-		        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_none);
-		        		break;
-		        	case 1:	//center button pressed 
-		        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_right);
-		        		break;
-		        	case 2:	//up button pressed 
-		        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_up);
-		        		break;
-		        	case 3:	//left button pressed 
-		        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_left);
-		        		break;
-		        	case 4:	//down button pressed 
-		        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_down);
-		        		break;
-		        	case 5:	//right button pressed 
-		        		arduinoinputdispArea.setImageResource(R.drawable.inputbutton_center);
-		        		break;
-		        	default:
-		        		Log.e(getLocalClassName(), "Unkown joystick state: " + mPlainProtocol.receivedContent[0]);
-		        		break;
-		        	}
             	}
     		}
-    		else if(mPlainProtocol.receivedCommand.equals(BleCmd.Temperature))
-    		{
-        		System.out.println("received Temperature");
 
-    		}
-        	else if(mPlainProtocol.receivedCommand.equals(BleCmd.Humidity)){
-        		System.out.println("received Humidity");
-
-        	}
-        	else if(mPlainProtocol.receivedCommand.equals(BleCmd.Knob)){
-        		System.out.println("received Knob");            
-        		float pgPos = mPlainProtocol.receivedContent[0] / 3.75f;//Adjust display value to the angle
-        		progressWheel.setProgress(Math.round(pgPos));
-        		analogTextDisp.setText(String.valueOf(mPlainProtocol.receivedContent[0]));
-        	}
     	}
 		
 	}
@@ -175,58 +183,14 @@ public class BLUNOActivity extends BlunoLibrary {
 
 	}
 
-	//configure the oled Submit component
-	private void oledSubmitEditArea() {
-
-		oledSubmitEditText.setBackgroundResource(R.drawable.edittext);
-		
-		oledSubmitEditText.setTypeface(txtotf);
-		//Clear testing text
-		oledSubmitEditText.setText("");
-		oledSubmitEditText.setOnEditorActionListener(new OnEditorActionListener(){
-
-			@Override
-			public boolean onEditorAction(TextView arg0, int arg1, KeyEvent arg2) {
-				
-				serialSend(mPlainProtocol.write(BleCmd.Disp + oledSubmitEditText.getText(), 0,0));
-				return false;
-			}
-		});
-
-		
-	}
-	
-	//configure the color Picker wheel
-	private void CreatePicker() {
-
-		picker = (ColorPicker) findViewById(R.id.picker);
-		
-		picker.setOnColorChangedListener(new OnColorChangedListener(){
-
-			@Override
-			public void onColorChanged(int color) {
-				isColorChange=true;
-			}
-		});
-		
-
-	}
-    
 	//configure the font
 	private void FontConfig() {
 		
 		// Font path
 		String fontPath = "fonts/yueregular.otf";
-
         
         txtotf = Typeface.createFromAsset(getAssets(), fontPath);
-
-        
-        analogTextDisp = (TextView) findViewById(R.id.analogTextDisp);
-        analogTextDisp.setTypeface(txtotf);
-
 	}
-	
 	
 	//configure the Image View switching part in the center of the UI
 	public void imageConfig(){	
@@ -347,16 +311,95 @@ public class BLUNOActivity extends BlunoLibrary {
 			}
 		});
 	}
-	
 
-	
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		System.out.println("BLUNOActivity onCreate");
 		setContentView(R.layout.activity_bluno);
-		
+
+		Fragment_main = new FragmentMain();
+		Fragment_share = new FragmentShare();
+		Fragment_custom = new FragmentCustomize();
+		Fragment_user = new FragmentUser();
+
+		fragmentManager = getSupportFragmentManager();
+		fragmentTransaction = fragmentManager.beginTransaction();
+		fragmentTransaction.replace(R.id.content, Fragment_main);
+		fragmentTransaction.commit();
+
+
+		mainButton = (ImageView)findViewById(R.id.mainButton);
+		customizeButton = (ImageView)findViewById(R.id.customizeButton);
+		shareButton = (ImageView)findViewById(R.id.shareButton);
+		userButton = (ImageView)findViewById(R.id.userButton);
+
+		mainButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Select_Fragment_Index = 1;
+				Button_Image_Change(Current_Fragment_Index,Select_Fragment_Index);
+				Fragment_Change(Fragment_main);
+			}
+		});
+		customizeButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Select_Fragment_Index = 3;
+				Button_Image_Change(Current_Fragment_Index,Select_Fragment_Index);
+				Fragment_Change(Fragment_custom);
+			}
+		});
+		shareButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Select_Fragment_Index = 4;
+				Button_Image_Change(Current_Fragment_Index,Select_Fragment_Index);
+				Fragment_Change(Fragment_share);
+			}
+		});
+		userButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				Select_Fragment_Index = 5;
+				Button_Image_Change(Current_Fragment_Index,Select_Fragment_Index);
+				Fragment_Change(Fragment_user);
+			}
+		});
+
+		UserUid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+		File localFile = null;
+		try {
+			localFile = File.createTempFile("images", "jpg");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		FirebaseDatabase.getInstance().getReference().child("users").addValueEventListener(new ValueEventListener() {
+			@Override
+			public void onDataChange(DataSnapshot dataSnapshot) {
+				// 처음 넘어오는 데이터 // ArrayList 값.
+				for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+					if (snapshot.child("uid").getValue(String.class).equals(UserUid)) {
+						Uri url = Uri.parse(snapshot.child("profileImageUrl").getValue(String.class).toString());
+						profileUri = url;
+						break;
+					}else{
+						Log.e("MainActivity","have not data");
+					}
+					// 아래는 기본 프로필 이미지,
+					profileUri = Uri.parse("https://firebasestorage.googleapis.com/v0/b/blunolight.appspot.com/o/images%2Ficon01non.png?alt=media&token=cbd92845-3865-4e52-b9b5-675610dd85c4");
+				}
+			}
+
+			@Override
+			public void onCancelled(DatabaseError databaseError) {
+
+			}
+		});
+
+		/************************************************************/
 		//set the Baudrate of the Serial port
 		serialBegin(115200);
 		
@@ -365,13 +408,61 @@ public class BLUNOActivity extends BlunoLibrary {
 		FontConfig();
 		progressWheelConfig();
 		titleImageConfig();
-		CreatePicker();
-		oledSubmitEditArea();
 		controlSwitch();
 		
 		
 	}
-	
+
+	private void Button_Image_Change(int current_Fragment_Index, int select_Fragment_Index){
+		switch (current_Fragment_Index){
+			case 1:
+				mainButton.setImageResource(R.drawable.homeicon);
+				break;
+			case 2:
+				themeButton.setImageResource(R.drawable.themeicon);
+				break;
+			case 3:
+				customizeButton.setImageResource(R.drawable.customicon);
+				break;
+			case 4:
+				shareButton.setImageResource(R.drawable.shareicon);
+				break;
+			case 5:
+				userButton.setImageResource(R.drawable.usericon);
+				break;
+		}
+		switch (select_Fragment_Index){
+			case 1:
+				mainButton.setImageResource(R.drawable.homeicon_on);
+				break;
+			case 2:
+				themeButton.setImageResource(R.drawable.themeicon_on);
+				break;
+			case 3:
+				customizeButton.setImageResource(R.drawable.customicon_on);
+				break;
+			case 4:
+				shareButton.setImageResource(R.drawable.shareicon_on);
+				break;
+			case 5:
+				userButton.setImageResource(R.drawable.usericon_on);
+				break;
+		}
+	}
+
+	private void Fragment_Change(Fragment changeFragment){
+		fragmentTransaction = fragmentManager.beginTransaction();
+
+		if(Current_Fragment_Index > Select_Fragment_Index){
+			fragmentTransaction.setCustomAnimations(R.anim.fromleft, R.anim.toright);
+		}else if(Current_Fragment_Index < Select_Fragment_Index){
+			fragmentTransaction.setCustomAnimations(R.anim.fromright, R.anim.toleft);
+		}
+		Current_Fragment_Index = Select_Fragment_Index;
+		fragmentTransaction.replace(R.id.content, changeFragment);
+		fragmentTransaction.commit();
+	}
+
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -392,10 +483,7 @@ public class BLUNOActivity extends BlunoLibrary {
 	protected void onPause() {
 		super.onPause();
 		System.out.println("BLUNOActivity onPause");
-		receivedHandler.removeCallbacks(humidityRunnable); 
-		receivedHandler.removeCallbacks(temperatureRunnable); 
-		receivedHandler.removeCallbacks(colorRunnable); 
-		receivedHandler.removeCallbacks(PotentiometerRunnable);
+		//receivedHandler.removeCallbacks(colorRunnable);
         onPauseProcess();
 	}
 	
@@ -426,17 +514,12 @@ public class BLUNOActivity extends BlunoLibrary {
 
 		case isConnected:
 	        titleImageView.setImageResource(R.drawable.title_connected);
-			receivedHandler.post(humidityRunnable); 
-			receivedHandler.post(temperatureRunnable); 
 			switch (Modestates) {
 			case LEDMode:
 				receivedHandler.post(colorRunnable); 
 				break;
 			case RockerMode:
 				
-				break;
-			case KnobMode:
-				receivedHandler.post(PotentiometerRunnable);
 				break;
 
 			default:
@@ -449,11 +532,7 @@ public class BLUNOActivity extends BlunoLibrary {
 			break;
 		case isToScan:
 	        titleImageView.setImageResource(R.drawable.title_scan);
-	        
-			receivedHandler.removeCallbacks(humidityRunnable); 
-			receivedHandler.removeCallbacks(temperatureRunnable); 
-			receivedHandler.removeCallbacks(colorRunnable); 
-			receivedHandler.removeCallbacks(PotentiometerRunnable);
+			//receivedHandler.removeCallbacks(colorRunnable);
 			break;
 		default:
 			break;

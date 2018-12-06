@@ -1146,7 +1146,6 @@ id alertTitle
 id all
 id alphaSlideBar
 id always
-id analogTextDisp
 id async
 id auto
 id barrier
@@ -1169,9 +1168,9 @@ id chains
 id checkbox
 id chronometer
 id circle
+id circlebutton
 id circlebutton2
 id circlebutton3
-id circlebutton4
 id clearButton
 id clip_horizontal
 id clip_vertical
@@ -1399,7 +1398,6 @@ id userRecyclerView
 id view
 id view3
 id view6
-id viewLine
 id view_offset_helper
 id view_title_container
 id visible
@@ -1475,6 +1473,7 @@ layout design_text_input_password_icon
 layout dialog_share
 layout fragment_customize
 layout fragment_draw
+layout fragment_main
 layout fragment_share
 layout fragment_user
 layout gatt_services_characteristics

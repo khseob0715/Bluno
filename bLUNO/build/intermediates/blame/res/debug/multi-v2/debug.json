@@ -4037,9 +4037,12 @@
                 {
                     "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "183",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "317"
                     },
                     "to": {
                         "startLines": "5",
@@ -4047,7 +4050,7 @@
                         "startOffsets": "199",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "282"
+                        "endOffsets": "331"
                     }
                 }
             ]
