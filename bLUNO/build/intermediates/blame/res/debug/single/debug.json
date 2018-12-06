@@ -16,6 +16,10 @@
         "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\drawable-xhdpi\\inputbutton_5.png"
     },
     {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_dialog_share.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\dialog_share.xml"
+    },
+    {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
@@ -1292,6 +1296,10 @@
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\30dcf42307e18b41f6d6a5aea3e3ef50\\res\\anim\\design_snackbar_out.xml"
     },
     {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_item_recycler_view.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\item_recycler_view.xml"
+    },
+    {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_btn_google_dark_normal.9.png.flat",
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\083c444a0547e1ed3f38af4c39c6cbbc\\res\\drawable-xxhdpi-v4\\btn_google_dark_normal.9.png"
     },
@@ -1420,6 +1428,10 @@
         "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\drawable\\theme03_image.jpg"
     },
     {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_user_item_recycler_view.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\user_item_recycler_view.xml"
+    },
+    {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
@@ -1442,6 +1454,10 @@
     {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\986a570d98d8cf95d63be3ac9cf84b4b\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_fragment_draw.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\fragment_draw.xml"
     },
     {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1654,6 +1670,10 @@
     {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_fragment_share.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\fragment_share.xml"
     },
     {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_btn_google_light_normal.9.png.flat",
@@ -2548,6 +2568,10 @@
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customize.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\fragment_customize.xml"
+    },
+    {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4_btn_google_signin_dark_focus.9.png.flat",
         "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\google-signin-1.0.0.aar\\083c444a0547e1ed3f38af4c39c6cbbc\\res\\drawable-tvdpi-v4\\btn_google_signin_dark_focus.9.png"
     },
@@ -2762,6 +2786,10 @@
     {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_miduino_background.png.flat",
         "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\drawable-xhdpi\\miduino_background.png"
+    },
+    {
+        "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user.xml.flat",
+        "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\layout\\fragment_user.xml"
     },
     {
         "merged": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\res\\merged\\debug\\layout_tedbottompicker_content_view.xml.flat",

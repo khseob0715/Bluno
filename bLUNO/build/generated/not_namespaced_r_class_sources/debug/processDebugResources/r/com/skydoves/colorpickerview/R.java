@@ -37,13 +37,13 @@ public final class R {
         private id() {}
 
         public static final int AlphaSlideBar = 0x7f090001;
-        public static final int BrightnessSlideBar = 0x7f090002;
-        public static final int ColorPickerView = 0x7f090006;
+        public static final int BrightnessSlideBar = 0x7f090006;
+        public static final int ColorPickerView = 0x7f090009;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int layout_dialog_colorpicker = 0x7f0b0036;
+        public static final int layout_dialog_colorpicker = 0x7f0b003c;
     }
     public static final class styleable {
         private styleable() {}
