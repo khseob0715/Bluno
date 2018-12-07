@@ -122,12 +122,31 @@ public class CanvasView extends LinearLayout {
         String list = "";
         for (TextView[] row : pixels) {
             for (TextView pixel : row) {
-                list += ((ColorDrawable) pixel.getBackground()).getColor()+",";
+                // ((ColorDrawable) pixel.getBackground()).getColor()   10진수 값.
+                // 10진수를 Hex로
+                // Integer.toHexString(((ColorDrawable) pixel.getBackground()).getColor());
+                int res = getRGB(Integer.toHexString(((ColorDrawable) pixel.getBackground()).getColor()));
+
+  //              list += ((ColorDrawable) pixel.getBackground()).getColor()+",";
+                list += res +",";
             }
         }
 
         return list.substring(0, list.length() - 1);
     }
+
+    public int getRGB(final String rgb)
+    {
+        int res = 0;
+        final int[] ret = new int[3];
+        for (int i = 0; i < 3; i++)
+        {
+            ret[i] = Integer.parseInt(rgb.substring(i * 2, i * 2 + 2), 16);
+        }
+        res = ret[0]*1000000+ret[1]*1000+ret[2];
+        return res;
+    }
+
 
     public List<View> findPixels(MotionEvent motionEvent) {
         // find pixels under current coordinates

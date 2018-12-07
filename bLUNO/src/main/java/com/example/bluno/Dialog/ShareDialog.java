@@ -24,7 +24,7 @@ public class ShareDialog {
 
     private Context context;
 
-    final Integer[] integers = new Integer[170];
+    final Integer[] integers = new Integer[100];
     private DatabaseReference mDatabase;
 
     public ShareDialog(Context context) {
@@ -55,12 +55,7 @@ public class ShareDialog {
 
         String pixelString = canvasView.toString();
 
-        String[] strs = pixelString.split(",");
-        int len = strs.length;
-
-        for(int i = 0 ; i < len ; i++){
-            integers[i] = Integer.parseInt(strs[i]);
-        }
+        final String[] strs = pixelString.split(",");
 
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,11 +70,9 @@ public class ShareDialog {
                     lightModel.ShareLightDescription = message.getText().toString();
                 }
 
-
-
                 // 1번 조명   2번 조명  3번 조명 -------->?
 
-                List<Integer> list = Arrays.asList(integers);
+                List<String> list = Arrays.asList(strs);
                 lightModel.SharePixel = list;
 
                 Long tsLong = System.currentTimeMillis();
@@ -113,10 +106,8 @@ public class ShareDialog {
                     lightModel.ShareLightDescription = message.getText().toString();
                 }
 
-
                 // 1번 조명   2번 조명  3번 조명 -------->?
-
-                List<Integer> list = Arrays.asList(integers);
+                List<String> list = Arrays.asList(strs);
                 lightModel.SharePixel = list;
 
                 Long tsLong = System.currentTimeMillis();

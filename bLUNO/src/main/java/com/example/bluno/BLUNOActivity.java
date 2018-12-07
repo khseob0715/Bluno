@@ -123,11 +123,14 @@ public class BLUNOActivity extends BlunoLibrary {
 					serialSend(mPlainProtocol.write(BleCmd.Theme,FragmentMain.selected_theme));
 					break;
 				case Custom:
+                    for(int i = 0 ; i < 100; i++){
+                    	int r = Integer.parseInt(FragmentShare.CustomPixel[i].substring(0,3));
+                    	int g = Integer.parseInt(FragmentShare.CustomPixel[i].substring(3,6));
+                    	int b = Integer.parseInt(FragmentShare.CustomPixel[i].substring(6));
 
-                    for(int i = 0 ; i < 43; i++){
-                        serialSend(mPlainProtocol.write(BleCmd.Custom, i, FragmentShare.CustomPixel[i * 4 + 0], FragmentShare.CustomPixel[i * 4 + 1], FragmentShare.CustomPixel[i * 4 + 2], FragmentShare.CustomPixel[i * 4 + 3]));
+                    	serialSend(mPlainProtocol.write(BleCmd.Custom, i,r,g,b));
 
-                        if(i == 42) {
+						if(i == 99) {
                             delayTime = 0;
                         }
                         MatrixTime(delayTime);

@@ -46,8 +46,8 @@ public class FragmentShare extends Fragment {
 
     public static int Once = 0;
 
-    public static int[] CustomPixel = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
-
+    //public static int[] CustomPixel = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    public static String[] CustomPixel = new String[100];
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -128,25 +128,37 @@ public class FragmentShare extends Fragment {
                 @Override
                 public void onClick(View v) {
                     Toast.makeText(getContext(), String.format("%d 선택 %s", position + 1, lightModels.get(position).SharePixel.get(0)), Toast.LENGTH_LONG).show();
-                    int len = lightModels.get(position).SharePixel.size();
+
+
+                    int len = 100;
                     String list = "";
+
                     for(int i = 0 ; i < len; i++) {
                         CustomPixel[i] = lightModels.get(position).SharePixel.get(i);
                         if(BLUNOActivity.print) {
-                            list += String.valueOf(CustomPixel[i]);
+                            list += CustomPixel[i];
                             list += " ";
                         }
                     }
                     if(BLUNOActivity.print)
-                        Toast.makeText(getContext(), list, Toast.LENGTH_SHORT).show();
+                       Toast.makeText(getContext(), list, Toast.LENGTH_SHORT).show();
 
-                    BLUNOActivity.delayTime = 1000;
-                    BLUNOActivity.Modestates = 3; // CustomMode;
+                    MatrixTime(10000);
+
 
                 }
 
-                // lightModels.get(position).pixelColor[lightModels.get(position).index - 1].getG_color(),
+
             });
+        }
+        public void MatrixTime(int delayTime){
+            long saveTime = System.currentTimeMillis();
+            long currTime = 0;
+            while( currTime - saveTime < delayTime){
+                currTime = System.currentTimeMillis();
+            }
+            BLUNOActivity.Modestates = 3; // CustomMode;
+            BLUNOActivity.delayTime = 1000;
         }
 
         @Override

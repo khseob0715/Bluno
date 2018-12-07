@@ -280,13 +280,6 @@ public class FragmentCustomize extends Fragment {
         return bitmap.getPixel(evX,evY);
     }
 
-//
-//
-//    private void setLayoutColor(ColorEnvelope envelope) {
-
-//        textView.setText("#" + envelope.getHexCode());
-//        alphaTileView.setPaintColor(envelope.getColor());
-//    }
 
     // 스펙트럼 위에 그림
 

@@ -6,11 +6,11 @@
                 {
                     "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\values-v11\\colors.xml",
                     "from": {
-                        "startLines": "4,-1,-1",
-                        "startColumns": "4,-1,-1",
-                        "startOffsets": "157,-1,-1",
-                        "endColumns": "47,-1,-1",
-                        "endOffsets": "200,-1,-1"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "47,46,50",
+                        "endOffsets": "200,99,151"
                     },
                     "to": {
                         "startLines": "2,3,4",
@@ -23,9 +23,12 @@
                 {
                     "source": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "183",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "317"
                     },
                     "to": {
                         "startLines": "5",
@@ -33,7 +36,7 @@
                         "startOffsets": "201",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "284"
+                        "endOffsets": "333"
                     }
                 }
             ]
