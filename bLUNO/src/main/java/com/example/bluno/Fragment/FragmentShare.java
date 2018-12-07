@@ -46,7 +46,7 @@ public class FragmentShare extends Fragment {
 
     public static int Once = 0;
 
-    public static int[] CustomPixel = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    public static int[] CustomPixel = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -140,6 +140,7 @@ public class FragmentShare extends Fragment {
                     if(BLUNOActivity.print)
                         Toast.makeText(getContext(), list, Toast.LENGTH_SHORT).show();
 
+                    BLUNOActivity.delayTime = 1000;
                     BLUNOActivity.Modestates = 3; // CustomMode;
 
                 }

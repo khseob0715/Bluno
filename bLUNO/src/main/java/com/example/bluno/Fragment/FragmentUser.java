@@ -206,7 +206,21 @@ public class FragmentUser extends Fragment {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(getContext(), String.format("%d 선택 %s", position + 1, lightModels.get(position).SharePixel.get(0)), Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getContext(), String.format("%d 선택 %s", position + 1, lightModels.get(position).SharePixel.get(0)), Toast.LENGTH_LONG).show();
+                    int len = lightModels.get(position).SharePixel.size();
+                    String list = "";
+                    for(int i = 0 ; i < len; i++) {
+                        FragmentShare.CustomPixel[i] = lightModels.get(position).SharePixel.get(i);
+                        if(BLUNOActivity.print) {
+                            list += String.valueOf(FragmentShare.CustomPixel[i]);
+                            list += " ";
+                        }
+                    }
+                    if(BLUNOActivity.print)
+                        Toast.makeText(getContext(), list, Toast.LENGTH_SHORT).show();
+
+                    BLUNOActivity.delayTime = 500;
+                    BLUNOActivity.Modestates = 3; // CustomMode;
                 }
 
                 // lightModels.get(position).pixelColor[lightModels.get(position).index - 1].getG_color(),

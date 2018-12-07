@@ -14,6 +14,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -21,11 +22,14 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.bluno.Dialog.CustomFlag;
 import com.example.bluno.Dialog.ShareDialog;
 import com.example.bluno.R;
 import com.example.bluno.views.CanvasView;
@@ -36,6 +40,10 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.skydoves.colorpickerview.AlphaTileView;
+import com.skydoves.colorpickerview.ColorEnvelope;
+import com.skydoves.colorpickerview.ColorPickerView;
+import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -44,8 +52,14 @@ import java.util.List;
 
 public class FragmentCustomize extends Fragment {
 
-    public ImageView customize_selectedImage;
+    private ColorPickerView colorPickerView;
     public String customize_rgbcolor, customize_hexcolor;
+
+
+    // 플래그 처음에 안뜨게
+    private boolean FLAG_PALETTE = false;
+    private boolean FLAG_SELECTOR = false;
+
 
 
     FragmentManager fragmentManager;
@@ -59,10 +73,12 @@ public class FragmentCustomize extends Fragment {
     DrawFragment drawFragment;
     CanvasView canvasView;
 
-
     DatabaseReference mDatabase;
 
     StorageReference mStoragedRef;
+
+    private TextView textView;
+    private AlphaTileView alphaTileView;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -78,6 +94,7 @@ public class FragmentCustomize extends Fragment {
         fragmentTransaction.replace(R.id.customize_framelayout, drawFragment);
         fragmentTransaction.commit();
 
+        canvasView = drawFragment.getCanvas();
     }
 
     @Nullable
@@ -86,51 +103,36 @@ public class FragmentCustomize extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_customize,null);
 
+
+
         buttonlist = view.findViewById(R.id.buttonlist);
 
         for (int i = 0; i < buttonlist.getChildCount(); i++)
             buttonlist.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(-2414079));
 
-        customize_selectedImage =view.findViewById(R.id.customzie_spectrum_image);
 
-        customize_selectedImage.setOnTouchListener(new View.OnTouchListener() {
+        colorPickerView = view.findViewById(R.id.colorPickerView);
+        colorPickerView.setFlagView(new CustomFlag(getContext(), R.layout.layout_flag));
+        colorPickerView.setColorListener(new ColorEnvelopeListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
+            public void onColorSelected(ColorEnvelope envelope, boolean fromUser) {
+                //setLayoutColor(envelope);
 
-                try {
-                    final int action = event.getAction();
-                    final int evX = (int) event.getX();
-                    final int evY = (int) event.getY();
-                    // 색받아오기
-                    customize_touch_color = getColor(customize_selectedImage, evX, evY);
-                    //r,g,b 값 받아오기
-                    int r = (customize_touch_color >> 16) & 0xFF;
-                    int g = (customize_touch_color >> 8) & 0xFF;
-                    int b = (customize_touch_color >> 0) & 0xFF;
-                    customize_rgbcolor = String.valueOf(r) + "," + String.valueOf(g) + "," + String.valueOf(b);
+                //int[] argb = envelope.getArgb();
+                customize_touch_color = envelope.getColor();
 
-                    //hex값 받아오기
-                    customize_hexcolor = Integer.toHexString(customize_touch_color);
-                    if (customize_hexcolor.length() > 2) {
-                        customize_hexcolor = customize_hexcolor.substring(2, customize_hexcolor.length()); //alfa제거
-                    }
-                    if (action == event.ACTION_UP) {
-                        //터치이벤트 설정
-                        for (int i = 0; i < buttonlist.getChildCount(); i++)
-                            buttonlist.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(customize_touch_color));
+                for (int i = 0; i < buttonlist.getChildCount(); i++)
+                    buttonlist.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(customize_touch_color));
 
-                        canvasView = drawFragment.getCanvas();
-                        Log.e("customize_touch_color",""+customize_touch_color);
-                        canvasView.color = customize_touch_color;
-
-                    }
-
-                }catch(Exception e) {
-
+                Log.e("customize_touch_color",""+customize_touch_color);
+                canvasView = drawFragment.getCanvas();
+                if(canvasView != null) {
+                    canvasView.color = customize_touch_color;
                 }
-                return true;
+
             }
         });
+
 
 
         // fill canvas on button click   // 색 복사?
@@ -246,7 +248,7 @@ public class FragmentCustomize extends Fragment {
                 dialog.setTitle(R.string.brushsize);
 
                 final SeekBar input = new SeekBar(getContext());
-                input.setMax(17);
+                input.setMax(5);
                 input.setProgress(drawFragment.getCanvas().brushSize-1);
                 LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
                 params.setMarginStart(100);
@@ -276,5 +278,32 @@ public class FragmentCustomize extends Fragment {
         Bitmap bitmap=Bitmap.createBitmap(selectedImage.getDrawingCache());
         selectedImage.setDrawingCacheEnabled(false);
         return bitmap.getPixel(evX,evY);
+    }
+
+//
+//
+//    private void setLayoutColor(ColorEnvelope envelope) {
+
+//        textView.setText("#" + envelope.getHexCode());
+//        alphaTileView.setPaintColor(envelope.getColor());
+//    }
+
+    // 스펙트럼 위에 그림
+
+    public void palette() {
+        if (FLAG_PALETTE)
+            colorPickerView.setPaletteDrawable(ContextCompat.getDrawable(getContext(), R.drawable.palette));
+        else
+            colorPickerView.setPaletteDrawable(ContextCompat.getDrawable(getContext(), R.drawable.palettebar));
+        FLAG_PALETTE = !FLAG_PALETTE;
+    }
+
+    // 슬라이드바 변경
+    public void selector() {
+        if (FLAG_SELECTOR)
+            colorPickerView.setSelectorDrawable(ContextCompat.getDrawable(getContext(), R.drawable.wheel));
+        else
+            colorPickerView.setSelectorDrawable(ContextCompat.getDrawable(getContext(), R.drawable.wheel_dark));
+        FLAG_SELECTOR = !FLAG_SELECTOR;
     }
 }

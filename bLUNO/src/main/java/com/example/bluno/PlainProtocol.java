@@ -20,7 +20,7 @@ public class PlainProtocol {
 	  public StringBuffer mReceivedframe;                           //the frame of the protocol
 	  public StringBuffer mSendingFrame;                           //the frame of the protocol
 	  private static final int MaxFrameBufferLenth = 500;
-	  private static final int ContentMaxLenth = 100;
+	  private static final int ContentMaxLenth = 5;
 
 	  private void sendFrame()                       //send the frame prototype
 	  {
@@ -56,20 +56,7 @@ public class PlainProtocol {
 	        }
 
 	        return true;
-		 
-		 
-//	    int i;
-//	    if (stringBuf.indexOf(0)<'0'||stringBuf.indexOf(0)>'9') {
-//	      if (stringBuf.indexOf(0)!='-') {
-//	        return false;
-//	      }
-//	    }
-//	    for (i=1; i<stringBuf.length(); i++) {
-//	      if (stringBuf.indexOf(i)<'0'||stringBuf.indexOf(i)>'9') {
-//	        return false;
-//	      }
-//	    }
-//	    return true;
+
 	  }
 	  
 	  private boolean parseFrame(String theFrame)    //parse the frame received

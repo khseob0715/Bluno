@@ -104,6 +104,14 @@ public class FragmentMain extends Fragment implements View.OnClickListener{
             @Override
             public void onColorChanged(int color) {
                 BLUNOActivity.isColorChange=true;
+
+                CircleImageView_Button01.setImageResource(R.drawable.music_black);
+                CircleImageView_Button02.setImageResource(R.drawable.sleep_black);
+                CircleImageView_Button03.setImageResource(R.drawable.speeh_black);
+
+                if(picker.mIsSwitchOn){
+                    BLUNOActivity.Modestates = 0;
+                }
             }
         });
 
@@ -142,8 +150,6 @@ public class FragmentMain extends Fragment implements View.OnClickListener{
                 }else{
                     CircleImageView_Button01.setImageResource(R.drawable.music_black);
                 }
-
-
             }
         });
 

@@ -6,54 +6,28 @@
     android:orientation="vertical"
     tools:context="com.example.bluno.Fragment.FragmentCustomize">
 
-    <LinearLayout
+    <FrameLayout
+        android:layout_marginTop="25dp"
+        android:id="@+id/customize_framelayout"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center">
+    </FrameLayout>
+
+
+    <com.skydoves.colorpickerview.ColorPickerView
+        android:id="@+id/colorPickerView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="235dp"
         android:layout_gravity="center"
-        android:layout_marginTop="35dp"
-        android:gravity="center"
-        android:orientation="horizontal">
+        app:palette="@drawable/line_spectrum"
+        app:selector="@drawable/wheel" />
 
-        <ImageView
-            android:id="@+id/customzie_spectrum_image"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            android:layout_weight="0"
-            android:src="@drawable/line_spectrum" />
-
-    </LinearLayout>
-
-
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="400dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <FrameLayout
-                android:id="@+id/customize_framelayout"
-                android:layout_width="500dp"
-                android:layout_height="400dp">
-
-            </FrameLayout>
-        </LinearLayout>
-    </HorizontalScrollView>
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:id="@+id/buttonlist"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -61,10 +35,10 @@
             android:id="@+id/brushButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="2dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="0"
             android:clickable="true"
             app:fabSize="normal"
@@ -74,10 +48,10 @@
             android:id="@+id/pickerButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="2dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="0"
             android:clickable="true"
             app:fabSize="normal"
@@ -87,10 +61,10 @@
             android:id="@+id/fillButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="2dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="0"
             android:clickable="true"
             app:fabSize="normal"
@@ -100,10 +74,10 @@
             android:id="@+id/clearButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="2dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="0"
             android:clickable="true"
             app:fabSize="normal"
@@ -113,10 +87,10 @@
             android:id="@+id/saveButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="2dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="0"
             android:clickable="true"
             app:fabSize="normal"
@@ -124,8 +98,5 @@
 
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>

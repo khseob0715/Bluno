@@ -1171,6 +1171,7 @@ id clearButton
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id colorPickerView
 id connection_state
 id container
 id content
@@ -1188,7 +1189,6 @@ id custom
 id customPanel
 id customizeButton
 id customize_framelayout
-id customzie_spectrum_image
 id dark
 id data_value
 id decor_content_parent
@@ -1218,6 +1218,8 @@ id fillButton
 id fill_horizontal
 id fill_vertical
 id fixed
+id flag_color_code
+id flag_color_layout
 id forever
 id fragment_user_userId
 id fragment_user_userName
@@ -1310,7 +1312,6 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id seekBar
 id select_dialog_listview
 id selected_photo
 id selected_photos_container
@@ -1474,6 +1475,7 @@ layout fragment_user
 layout gatt_services_characteristics
 layout item_recycler_view
 layout layout_dialog_colorpicker
+layout layout_flag
 layout listitem_device
 layout main
 layout notification_action
