@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it-rIT\\values-it-rIT.xml",
+            "outputFile": "C:\\Users\\Aiden\\Desktop\\BlunoAccessoryShieldDemo-master\\Android\\BLUNO\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it-rIT\\values-it-rIT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\colorpicker-1.0.1.aar\\acb58ba07b16aed7efabb9c07105ab39\\res\\values-it-rIT\\values-it-rIT.xml",
+                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\colorpicker-1.0.1.aar\\35b0089975174aaa7996e73521f200ba\\res\\values-it-rIT\\values-it-rIT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

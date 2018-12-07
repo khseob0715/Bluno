@@ -1099,7 +1099,6 @@ id BrightnessSlideBar
 id CANVAS_TAG
 id CTRL
 id ColorPickerView
-id CustomizeShareButton
 id DateText
 id Delete_Light_button
 id DescriptionText
@@ -1109,7 +1108,6 @@ id Interest
 id LightImage
 id Light_Metadata_Layout
 id META
-id ModeDispArea
 id NameText
 id Profile
 id SHIFT
@@ -1144,7 +1142,6 @@ id adjust_height
 id adjust_width
 id alertTitle
 id all
-id alphaSlideBar
 id always
 id async
 id auto
@@ -1153,7 +1150,6 @@ id beginning
 id blocking
 id body
 id bottom
-id brightnessSlide
 id brushButton
 id btn_done
 id buttonLinearLayout
@@ -1239,6 +1235,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id imageView4
 id info
 id invisible
@@ -1278,7 +1275,6 @@ id percent
 id picker
 id pickerButton
 id pin
-id pot_input_Area
 id preset
 id primary
 id profile_image
@@ -1287,7 +1283,6 @@ id progress
 id progress_bar
 id progress_circular
 id progress_horizontal
-id pw_spinner
 id radio
 id rc_gallery
 id regular
@@ -1315,6 +1310,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekBar
 id select_dialog_listview
 id selected_photo
 id selected_photos_container
@@ -1332,7 +1328,6 @@ id smallLabel
 id snackbar_action
 id snackbar_text
 id snap
-id space
 id spacer
 id splashactivity_linearlayout
 id split_action_bar
@@ -1505,6 +1500,7 @@ layout support_simple_spinner_dropdown_item
 layout tedbottompicker_content_view
 layout tedbottompicker_grid_item
 layout tedbottompicker_selected_item
+layout test
 layout user_item_recycler_view
 menu bluno
 string abc_action_bar_home_description

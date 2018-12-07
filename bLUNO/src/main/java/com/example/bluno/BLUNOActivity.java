@@ -133,7 +133,7 @@ public class BLUNOActivity extends BlunoLibrary {
 							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
 							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
 							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
-							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9],
+							FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1],FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3], FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7], FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9]
 					));
 					break;
 				case Sleep:
@@ -195,7 +195,6 @@ public class BLUNOActivity extends BlunoLibrary {
 	//configure the Image View switching part in the center of the UI
 	public void imageConfig(){	
 
-		arduinoinputdispArea = (ImageView)this.findViewById(R.id.pot_input_Area);
 
 //		ledImage.setOnClickListener(new OnClickListener() {
 //	        @Override
@@ -294,7 +293,6 @@ public class BLUNOActivity extends BlunoLibrary {
 	
 	//configure the progress Wheel of the Potentiometer
 	private void progressWheelConfig() {
-		progressWheel = (ProgressWheel) findViewById(R.id.pw_spinner);
 		
 	}
 

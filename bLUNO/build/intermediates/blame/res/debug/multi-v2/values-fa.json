@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "C:\\Users\\Aiden\\Desktop\\BlunoAccessoryShieldDemo-master\\Android\\BLUNO\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\c2755629affd5074413ab86a19a3fbb6\\res\\values-fa\\values.xml",
+                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2bf7e4cd1f953e207ae973e0035c1693\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5633",
+                        "endColumns": "100",
+                        "endOffsets": "5729"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\6640f3a51eb8d4874098cffea8d10ef2\\res\\values-fa\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\values-fa\\values-fa.xml",
+                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\34c1e06f9ce0ee63e7126905da4e4d12\\res\\values-fa\\values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\203f201bd2c12348747bffcce1c9d239\\res\\values-fa\\values.xml",
+                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\384db114e4ba67b57f7b99d00a013b93\\res\\values-fa\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,23 +69,6 @@
                         "startOffsets": "3966",
                         "endColumns": "213",
                         "endOffsets": "4175"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\986a570d98d8cf95d63be3ac9cf84b4b\\res\\values-fa\\values-fa.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5633",
-                        "endColumns": "100",
-                        "endOffsets": "5729"
                     }
                 }
             ]

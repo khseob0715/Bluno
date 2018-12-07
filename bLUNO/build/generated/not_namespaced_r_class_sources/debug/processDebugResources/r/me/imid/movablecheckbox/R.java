@@ -53,11 +53,11 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int checkbox = 0x7f09004c;
-        public static final int primary = 0x7f0900bf;
-        public static final int summary = 0x7f090103;
-        public static final int title = 0x7f09011b;
-        public static final int widget_frame = 0x7f090139;
+        public static final int checkbox = 0x7f090048;
+        public static final int primary = 0x7f0900bb;
+        public static final int summary = 0x7f0900fe;
+        public static final int title = 0x7f090116;
+        public static final int widget_frame = 0x7f090134;
     }
     public static final class layout {
         private layout() {}
