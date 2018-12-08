@@ -132,6 +132,7 @@ public class FragmentShare extends Fragment {
                         CustomPixel[i] = lightModels.get(position).SharePixel.get(i);
                     }
                     BLUNOActivity.Modestates = 3; // CustomMode;
+                    BLUNOActivity.delayTime = 100;
                 }
 
 
