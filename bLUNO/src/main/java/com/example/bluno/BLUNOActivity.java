@@ -53,7 +53,7 @@ public class BLUNOActivity extends BlunoLibrary {
 
 	String UserUid;
 
-    public static int delayTime = 1000;
+    public static int delayTime = 300;
 	public static boolean isColorChange = false;
 	public static boolean isLastSwitchOn = false;
 	public static boolean isMusicOn = true;
@@ -123,62 +123,19 @@ public class BLUNOActivity extends BlunoLibrary {
 					serialSend(mPlainProtocol.write(BleCmd.Theme,FragmentMain.selected_theme));
 					break;
 				case Custom:
-                    for(int i = 0 ; i < 100; i++){
+                    for(int i = 0 ; i < 170; i++){
                     	int r = Integer.parseInt(FragmentShare.CustomPixel[i].substring(0,3));
                     	int g = Integer.parseInt(FragmentShare.CustomPixel[i].substring(3,6));
                     	int b = Integer.parseInt(FragmentShare.CustomPixel[i].substring(6));
 
-                    	serialSend(mPlainProtocol.write(BleCmd.Custom, i,r,g,b));
+                    	serialSend(mPlainProtocol.write(BleCmd.Custom, i, r , g , b));
+					//	Toast.makeText(getApplicationContext(), r + " " +  g + " " + b, Toast.LENGTH_SHORT).show();
 
-						if(i == 99) {
+						if(i == 169) {
                             delayTime = 0;
                         }
-                        MatrixTime(delayTime);
+                        //MatrixTime(delayTime);
                     }
-//                    serialSend(mPlainProtocol.write(BleCmd.Custom, 0, FragmentShare.CustomPixel[0], FragmentShare.CustomPixel[1], FragmentShare.CustomPixel[2], FragmentShare.CustomPixel[3]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 1, FragmentShare.CustomPixel[4], FragmentShare.CustomPixel[5], FragmentShare.CustomPixel[6], FragmentShare.CustomPixel[7]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 2, FragmentShare.CustomPixel[8], FragmentShare.CustomPixel[9], FragmentShare.CustomPixel[10], FragmentShare.CustomPixel[11]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 3, FragmentShare.CustomPixel[12], FragmentShare.CustomPixel[13], FragmentShare.CustomPixel[14], FragmentShare.CustomPixel[15]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 4, FragmentShare.CustomPixel[16], FragmentShare.CustomPixel[17], FragmentShare.CustomPixel[18], FragmentShare.CustomPixel[19]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 5, FragmentShare.CustomPixel[20], FragmentShare.CustomPixel[21], FragmentShare.CustomPixel[22], FragmentShare.CustomPixel[23]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 6, FragmentShare.CustomPixel[24], FragmentShare.CustomPixel[25], FragmentShare.CustomPixel[26], FragmentShare.CustomPixel[27]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 7, FragmentShare.CustomPixel[28], FragmentShare.CustomPixel[29], FragmentShare.CustomPixel[30], FragmentShare.CustomPixel[31]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 8, FragmentShare.CustomPixel[32], FragmentShare.CustomPixel[33], FragmentShare.CustomPixel[34], FragmentShare.CustomPixel[35]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 9, FragmentShare.CustomPixel[36], FragmentShare.CustomPixel[37], FragmentShare.CustomPixel[38], FragmentShare.CustomPixel[39]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 10, FragmentShare.CustomPixel[40], FragmentShare.CustomPixel[41], FragmentShare.CustomPixel[42], FragmentShare.CustomPixel[43]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 11, FragmentShare.CustomPixel[44], FragmentShare.CustomPixel[45], FragmentShare.CustomPixel[46], FragmentShare.CustomPixel[47]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 12, FragmentShare.CustomPixel[48], FragmentShare.CustomPixel[49], FragmentShare.CustomPixel[50], FragmentShare.CustomPixel[51]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 13, FragmentShare.CustomPixel[52], FragmentShare.CustomPixel[53], FragmentShare.CustomPixel[54], FragmentShare.CustomPixel[55]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 14, FragmentShare.CustomPixel[56], FragmentShare.CustomPixel[57], FragmentShare.CustomPixel[58], FragmentShare.CustomPixel[59]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 15, FragmentShare.CustomPixel[60], FragmentShare.CustomPixel[61], FragmentShare.CustomPixel[62], FragmentShare.CustomPixel[63]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 16, FragmentShare.CustomPixel[64], FragmentShare.CustomPixel[65], FragmentShare.CustomPixel[66], FragmentShare.CustomPixel[67]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 17, FragmentShare.CustomPixel[68], FragmentShare.CustomPixel[69], FragmentShare.CustomPixel[70], FragmentShare.CustomPixel[71]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 18, FragmentShare.CustomPixel[72], FragmentShare.CustomPixel[73], FragmentShare.CustomPixel[74], FragmentShare.CustomPixel[75]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 19, FragmentShare.CustomPixel[76], FragmentShare.CustomPixel[77], FragmentShare.CustomPixel[78], FragmentShare.CustomPixel[79]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 20, FragmentShare.CustomPixel[80], FragmentShare.CustomPixel[81], FragmentShare.CustomPixel[82], FragmentShare.CustomPixel[83]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 21, FragmentShare.CustomPixel[84], FragmentShare.CustomPixel[85], FragmentShare.CustomPixel[86], FragmentShare.CustomPixel[87]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 22, FragmentShare.CustomPixel[88], FragmentShare.CustomPixel[89], FragmentShare.CustomPixel[90], FragmentShare.CustomPixel[91]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 23, FragmentShare.CustomPixel[92], FragmentShare.CustomPixel[93], FragmentShare.CustomPixel[94], FragmentShare.CustomPixel[95]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 24, FragmentShare.CustomPixel[96], FragmentShare.CustomPixel[97], FragmentShare.CustomPixel[98], FragmentShare.CustomPixel[99]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 25, FragmentShare.CustomPixel[100], FragmentShare.CustomPixel[101], FragmentShare.CustomPixel[102], FragmentShare.CustomPixel[103]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 26, FragmentShare.CustomPixel[104], FragmentShare.CustomPixel[105], FragmentShare.CustomPixel[106], FragmentShare.CustomPixel[107]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 27, FragmentShare.CustomPixel[108], FragmentShare.CustomPixel[109], FragmentShare.CustomPixel[110], FragmentShare.CustomPixel[111]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 28, FragmentShare.CustomPixel[112], FragmentShare.CustomPixel[113], FragmentShare.CustomPixel[114], FragmentShare.CustomPixel[115]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 29, FragmentShare.CustomPixel[116], FragmentShare.CustomPixel[117], FragmentShare.CustomPixel[118], FragmentShare.CustomPixel[119]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 30, FragmentShare.CustomPixel[120], FragmentShare.CustomPixel[121], FragmentShare.CustomPixel[122], FragmentShare.CustomPixel[123]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 31, FragmentShare.CustomPixel[124], FragmentShare.CustomPixel[125], FragmentShare.CustomPixel[126], FragmentShare.CustomPixel[127]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 32, FragmentShare.CustomPixel[128], FragmentShare.CustomPixel[129], FragmentShare.CustomPixel[130], FragmentShare.CustomPixel[131]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 33, FragmentShare.CustomPixel[132], FragmentShare.CustomPixel[133], FragmentShare.CustomPixel[134], FragmentShare.CustomPixel[135]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 34, FragmentShare.CustomPixel[136], FragmentShare.CustomPixel[137], FragmentShare.CustomPixel[138], FragmentShare.CustomPixel[139]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 35, FragmentShare.CustomPixel[140], FragmentShare.CustomPixel[141], FragmentShare.CustomPixel[142], FragmentShare.CustomPixel[143]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 36, FragmentShare.CustomPixel[144], FragmentShare.CustomPixel[145], FragmentShare.CustomPixel[146], FragmentShare.CustomPixel[147]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 37, FragmentShare.CustomPixel[148], FragmentShare.CustomPixel[149], FragmentShare.CustomPixel[150], FragmentShare.CustomPixel[151]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 38, FragmentShare.CustomPixel[152], FragmentShare.CustomPixel[153], FragmentShare.CustomPixel[154], FragmentShare.CustomPixel[155]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 39, FragmentShare.CustomPixel[156], FragmentShare.CustomPixel[157], FragmentShare.CustomPixel[158], FragmentShare.CustomPixel[159]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 40, FragmentShare.CustomPixel[160], FragmentShare.CustomPixel[161], FragmentShare.CustomPixel[162], FragmentShare.CustomPixel[163]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 41, FragmentShare.CustomPixel[164], FragmentShare.CustomPixel[165], FragmentShare.CustomPixel[166], FragmentShare.CustomPixel[167]));
-//					serialSend(mPlainProtocol.write(BleCmd.Custom, 42, FragmentShare.CustomPixel[168], FragmentShare.CustomPixel[169], FragmentShare.CustomPixel[170], FragmentShare.CustomPixel[171]));
-
 					break;
 				case Sleep:
 					Log.e("Modestates","SleepMode");

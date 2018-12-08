@@ -238,7 +238,7 @@ public class PlainProtocol {
 			    	isFrameValid=true;
 			    }
 			    else{
-			    	System.out.println("<Wrong frame>;");
+			    //	System.out.println("<Wrong frame>;");
 			    }
 			    if(mReceivedframe.length()<=semicolonIndex+1){
 			    	mReceivedframe.setLength(0);
