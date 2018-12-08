@@ -57,6 +57,12 @@
 
             </RelativeLayout>
 
+        <LinearLayout
+            android:id="@+id/userProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
             <TextView
                 android:id="@+id/fragment_user_userName"
                 android:layout_width="wrap_content"
@@ -80,114 +86,19 @@
                 android:textColor="#ffffff"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+        </LinearLayout>
+
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/Interest"
+        <View
+            android:id="@+id/ViewLine"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView9"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/borderback"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="공부"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView10"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/borderback"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="수면"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView11"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/borderback"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="파티"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:id="@+id/textView12"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/borderback"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="수면"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView13"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/borderback"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="수면"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="80dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/borderback"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="수면"
-                        android:textColor="#ffffff"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
+            android:layout_height="1dp"
+            android:layout_above="@+id/buttonLinearLayout"
+            android:layout_centerInParent="true"
+            android:layout_weight="0"
+            android:background="#e6e6e6" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -219,7 +130,7 @@
                     android:layout_toEndOf="@+id/imageView4"
                     android:layout_weight="1"
                     android:padding="10dp"
-                    android:text="내가만든 조명"
+                    android:text="내가 만든 DIY 조명"
                     android:textColor="#ffffff"
                     android:textSize="20dp"
                     android:textStyle="bold" />

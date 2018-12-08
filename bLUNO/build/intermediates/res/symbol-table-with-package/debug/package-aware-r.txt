@@ -1104,7 +1104,6 @@ id Delete_Light_button
 id DescriptionText
 id FUNCTION
 id GoogleSignIN
-id Interest
 id LightImage
 id Light_Metadata_Layout
 id META
@@ -1353,13 +1352,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView10
-id textView11
-id textView12
-id textView13
-id textView14
 id textView8
-id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1389,6 +1382,7 @@ id uniform
 id up
 id useLogo
 id userButton
+id userProfile
 id userProfile_progressbar
 id userRecyclerView
 id view

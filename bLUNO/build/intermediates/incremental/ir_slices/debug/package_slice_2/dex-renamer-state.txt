@@ -1,4 +1,4 @@
-#Fri Dec 07 22:49:56 KST 2018
-base.0=C\:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+#Sat Dec 08 11:32:05 KST 2018
+base.0=C\:\\Users\\Aiden\\Desktop\\BLUNO\\bLUNO\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex

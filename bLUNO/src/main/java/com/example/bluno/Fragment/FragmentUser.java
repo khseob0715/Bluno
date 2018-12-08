@@ -16,17 +16,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.example.bluno.Activity.LoginActivity;
 import com.example.bluno.BLUNOActivity;
 import com.example.bluno.R;
 import com.example.bluno.model.LightModel;
 import com.example.bluno.model.UserModel;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -62,6 +73,11 @@ public class FragmentUser extends Fragment {
 
     private ProgressBar progressBar;
 
+    private FirebaseAuth mAuth;
+    private GoogleApiClient mGoogleApiClient;
+
+    private GoogleSignInClient mGoogleSignInClient;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,6 +93,38 @@ public class FragmentUser extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_user, null);
 
+        LinearLayout userProfile = (LinearLayout)view.findViewById(R.id.userProfile);
+        userProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                AlertDialog.Builder alterDialogBuilder = new AlertDialog.Builder(getContext());
+                alterDialogBuilder.setTitle("Sign Out")
+                        .setMessage("로그아웃 하시겠습니끼?")
+                        .setPositiveButton("예", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                FirebaseAuth.getInstance().signOut();
+
+                                mGoogleSignInClient = GoogleSignIn.getClient(getContext(), LoginActivity.gso);
+
+                                mGoogleSignInClient.signOut();
+
+                                getActivity().finish();
+                            }
+                        })
+                        .setNegativeButton("아니오", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.cancel();
+                            }
+                        })
+                        .create()
+                        .show();
+
+
+            }
+        });
         UserName = (TextView) view.findViewById(R.id.fragment_user_userName);
         UserId = (TextView) view.findViewById(R.id.fragment_user_userId);
         progressBar = (ProgressBar)view.findViewById(R.id.userProfile_progressbar);

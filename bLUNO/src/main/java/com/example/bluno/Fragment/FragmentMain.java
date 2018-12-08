@@ -229,7 +229,7 @@ public class FragmentMain extends Fragment implements View.OnClickListener{
 
                 @Override
                 public void onEndOfSpeech() {
-
+                    BLUNOActivity.isSpeechOn = !BLUNOActivity.isSpeechOn;
                 }
 
                 @Override

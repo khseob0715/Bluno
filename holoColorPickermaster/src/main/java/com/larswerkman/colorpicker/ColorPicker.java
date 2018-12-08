@@ -595,6 +595,7 @@ public class ColorPicker extends View {
 //				setColor(getOldCenterColor());
 //				mCenterNewPaint.setColor(getOldCenterColor());
 				mIsSwitchOn = !mIsSwitchOn;
+
 				invalidate();
 			}
 			// If user did not press pointer or center, report event not handled
