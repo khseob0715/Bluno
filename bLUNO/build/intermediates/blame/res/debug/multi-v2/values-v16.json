@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Aiden\\Desktop\\BLUNO\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\YuGyungho\\Desktop\\Bluno\\bLUNO\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2bf7e4cd1f953e207ae973e0035c1693\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\986a570d98d8cf95d63be3ac9cf84b4b\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aiden\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\34c1e06f9ce0ee63e7126905da4e4d12\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\YuGyungho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b74d4ce1cdb0a5d135365958c6190d79\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

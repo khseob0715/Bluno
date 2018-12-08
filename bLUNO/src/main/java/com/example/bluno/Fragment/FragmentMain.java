@@ -230,6 +230,7 @@ public class FragmentMain extends Fragment implements View.OnClickListener{
                 @Override
                 public void onEndOfSpeech() {
                     BLUNOActivity.isSpeechOn = !BLUNOActivity.isSpeechOn;
+                    CircleImageView_Button03.setImageResource(R.drawable.speeh_black);
                 }
 
                 @Override
