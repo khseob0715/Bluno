@@ -24,7 +24,6 @@ public class ShareDialog {
 
     private Context context;
 
-    final Integer[] integers = new Integer[100];
     private DatabaseReference mDatabase;
 
     public ShareDialog(Context context) {

@@ -53,7 +53,7 @@ public class BLUNOActivity extends BlunoLibrary {
 
 	String UserUid;
 
-    public static int delayTime = 300;
+    public static int delayTime = 100;
 	public static boolean isColorChange = false;
 	public static boolean isLastSwitchOn = false;
 	public static boolean isMusicOn = true;
@@ -123,19 +123,24 @@ public class BLUNOActivity extends BlunoLibrary {
 					serialSend(mPlainProtocol.write(BleCmd.Theme,FragmentMain.selected_theme));
 					break;
 				case Custom:
-                    for(int i = 0 ; i < 170; i++){
+
+					for(int i = 0 ; i < 170; i++){
+						if(FragmentShare.CustomPixel[i].length() != 9){
+							FragmentShare.CustomPixel[i] = "255255255";
+						}
                     	int r = Integer.parseInt(FragmentShare.CustomPixel[i].substring(0,3));
                     	int g = Integer.parseInt(FragmentShare.CustomPixel[i].substring(3,6));
                     	int b = Integer.parseInt(FragmentShare.CustomPixel[i].substring(6));
 
                     	serialSend(mPlainProtocol.write(BleCmd.Custom, i, r , g , b));
-					//	Toast.makeText(getApplicationContext(), r + " " +  g + " " + b, Toast.LENGTH_SHORT).show();
 
 						if(i == 169) {
                             delayTime = 0;
+                            Modestates = 10;
                         }
-                        //MatrixTime(delayTime);
+                        MatrixTime(delayTime);
                     }
+
 					break;
 				case Sleep:
 					Log.e("Modestates","SleepMode");

@@ -17,6 +17,7 @@ PlainProtocol BLUNOPlainProtocol(Serial, 115200); // set Serial baud rate to 115
 Adafruit_NeoPixel leds = Adafruit_NeoPixel(LED_COUNT, PIN, NEO_GRB + NEO_KHZ400); // NEO_GRB means the type of your LED Strip
 Metro ledMetro = Metro(18); // Metro for data receive in a regular time
 Analyzer Audio = Analyzer(4, 5, 0); // Strobe->4 RST->5 Analog->0
+
 int State01 = 2; // 버튼 누르면 바뀌는 것. // 처음에는 사운드 비주얼 라이제이션 효과 기능 // Rocker
 // 적외선
 int inputPin = 7; // 적외선 센서핀
@@ -42,7 +43,8 @@ boolean Dis_En = false;
 int Num_First_Color = 0, Buf_Max = 0;
 int Num_Shark02_High = 0, Number_Shark02_LOW = 0;
 int pixel_index;
-Metro CustomMetro = Metro(500);
+
+boolean custome = true;
 void setup()
 {
     Audio.Init(); // Init module
@@ -55,28 +57,18 @@ void setup()
     TCCR1B |= (1 << CS11);
     TCCR2B &= ~((1 << CS12) | (1 << CS11) | (1 << CS10)); // Clock select: SYSCLK divde 8;
     TCCR2B |= (1 << CS11);
+
     randomSeed(analogRead(A0));
 }
 
 void loop()
 {
-    /*    half                                                                     */
-    // for(int i = 0 ; i < 11; i++){
-    // for(int j = Led_arr[i]+8 ; j < Led_arr[i]+17; j++){
-    // leds.setPixelColor(j,0, 125, 125);//change the color
-    // }
-    // }
-    // 
-    // for(int i = 0 ; i < 11; i++){
-    // for(int j = Led_arr[i] ; j < Led_arr[i]+8; j++){
-    // leds.setPixelColor(j,55, 55, 0);//change the color
-    // }
-    // }
     val = digitalRead(inputPin);
+
     if (BLUNOPlainProtocol.available())
     {
         if (BLUNOPlainProtocol.receivedCommand == "RGBLED")
-            //get command
+        // get command
         {
             State01 = 3;
             Red = BLUNOPlainProtocol.receivedContent[0];
@@ -97,7 +89,35 @@ void loop()
         else
             if (BLUNOPlainProtocol.receivedCommand == "CUSTOM")
             {
-                int pixel_index = BLUNOPlainProtocol.receivedContent[0];
+               State01 = 5;
+            
+               int pixel_index = BLUNOPlainProtocol.receivedContent[0];
+               int r = BLUNOPlainProtocol.receivedContent[1];
+               int g = BLUNOPlainProtocol.receivedContent[2];
+               int b = BLUNOPlainProtocol.receivedContent[3];
+               
+               leds.setPixelColor(pixel_index, r, g, b);
+               
+               Serial.print("pixel_index : ");
+               Serial.print(pixel_index);
+               Serial.print(" Red Color : ");
+               Serial.print(r);
+               Serial.print(" Green Color : ");
+               Serial.print(g);
+               Serial.print(" Blue Color : ");
+               Serial.println(b);
+
+               if(pixel_index >= 168){
+                  custome = false;
+              }else{
+                  custome = true;
+              }
+              
+               if(custome){
+                  leds.show();
+               }
+              
+                  
             }
         else
             if (BLUNOPlainProtocol.receivedCommand == "SLEEP")
@@ -111,77 +131,75 @@ void loop()
                 Speech_Flag = BLUNOPlainProtocol.receivedContent[0];
             }
     }
+
+    
     if (ledMetro.check() == 1)
-        //time for metro
+    // time for metro
     {
         if (State01 == 1)
-            // 전부 지우진 초기 상태
+        // 전부 지우진 초기 상태
         {
             clearLEDs(); // Turn off all LEDs
             leds.show();
         }
         else
             if (State01 == 2)
-                // 사운드 비주얼라이제이션 효과
+            // 사운드 비주얼라이제이션 효과
         {
             Rock_With_Song(); // leds.show();
         }
         else
             if (State01 == 3)
-                // 내가 선택한 색상.
-        {
-            for (int i = 0; i < LED_COUNT; i++)
+            // 내가 선택한 색상.
             {
-                if (i % 7 == 0)
-                    leds.setPixelColor(i, Red, Green, 0); // change the color
-                else
-                    if (i % 3 == 0)
-                        leds.setPixelColor(i, 0, Green, Blue); // change the color
-                else
-                    if (i % 2 == 0)
-                        leds.setPixelColor(i, Red, Green, Blue); // change the color
-                else
-                    leds.setPixelColor(i, Red, 0, Blue); // change the color
-            }
-            leds.show();
-        }
-        else
-            if (State01 == 4)
-                // 테마
-        {
-            switch (SeletedTheme)
-            {
-                case 101:
-                    theme01();
-                    break;
-                case 102:
-                    break;
-                case 103:
-                    break;
-                case 104:
-                    break;
-                case 201:
-                    leds.setBrightness(10);
-                    Anime_theme01();
-                    break;
-                case 202:
-                    break;
-                case 203:
-                    Anime_theme03();
-                    break;
-                case 204:
-                    Anime_theme04();
-                    break;
-            }
-        }
-        else
-            if (State01 == 5)
-            {
-                for (int i = 0; i < 100; i++)
+                for (int i = 0; i < LED_COUNT; i++)
                 {
-                    leds.setPixelColor(i, CustomRed[i], CustomGreen[i], CustomBlue[i]); // change the color
+                    if (i % 7 == 0)
+                        leds.setPixelColor(i, Red, Green, 0); // change the color
+                    else
+                        if (i % 3 == 0)
+                            leds.setPixelColor(i, 0, Green, Blue); // change the color
+                    else
+                        if (i % 2 == 0)
+                            leds.setPixelColor(i, Red, Green, Blue); // change the color
+                    else
+                        leds.setPixelColor(i, Red, 0, Blue); // change the color
                 }
                 leds.show();
+            }
+        else
+            if (State01 == 4)
+            // 테마
+            {
+                switch (SeletedTheme)
+                {
+                    case 101:
+                        theme01();
+                        break;
+                    case 102:
+                        break;
+                    case 103:
+                        break;
+                    case 104:
+                        break;
+                    case 201:
+                        leds.setBrightness(10);
+                        Anime_theme01();
+                        break;
+                    case 202:
+                        break;
+                    case 203:
+                        Anime_theme03();
+                        break;
+                    case 204:
+                        Anime_theme04();
+                        break;
+                }
+            }
+        else
+            if (State01 == 5) // Custom
+            {
+                
             }
         else
             if (State01 == 6)
@@ -233,6 +251,9 @@ void loop()
     }
 }
 
+
+
+
 void theme01()
 {
     for (int i = 0; i < LED_COUNT; i++)
@@ -275,11 +296,15 @@ void theme01()
     leds.show();
 }
 
+
+
 void clearLEDs() // LED 전부 지우기
 {
     for (int i = 0; i < LED_COUNT; i++)
         leds.setPixelColor(i, 0);
 }
+
+
 
 void rainbow(byte startPosition)
 {
@@ -287,6 +312,8 @@ void rainbow(byte startPosition)
     leds.setPixelColor(startPosition, rainbowOrder((rainbowScale * (startPosition + startPosition)) % 192));
     leds.show();
 }
+
+
 
 uint32_t rainbowOrder(byte position)
 {
@@ -341,7 +368,7 @@ void Rock_With_Song()
     }
     // count if a low voice started
     if (Buf_Max != Num_Channel && FreqVal[Num_Channel] > 300)
-        // judge if the sound changed
+    // judge if the sound changed
     {
         Num_First_Color++;
         Dis_En = true; // enable the display
@@ -360,17 +387,17 @@ void Rock_With_Song()
     }
     Buf_Max = Num_Channel;
     if ((Buf_Max == 5 || Buf_Max == 4) && FreqVal[Buf_Max] > 700)
-        //count when the  High vlaue of the sound started
+    // count when the  High vlaue of the sound started
     {
         Num_Shark02_High++;
     }
     else
         Num_Shark02_High = 0; // reset the count of the High_value_count
     if (Num_Shark02_High > 22)
-        //time of High value voice reached
+    // time of High value voice reached
     {
         for (int i = 0; i < LED_COUNT / 2; i++)
-            //these are effects of color changing
+        // these are effects of color changing
         {
             leds.setPixelColor(i, rainbowOrder(i)); // rising from two origin points
             leds.setPixelColor(i + LED_COUNT / 2, rainbowOrder(i));
@@ -391,7 +418,7 @@ void Rock_With_Song()
         leds.show();
         Audio.ReadFreq(FreqVal);
         if (FreqVal[4] > 800)
-            //if High sound value continues, take another effect out!
+        // if High sound value continues, take another effect out!
         {
             for (int x = 0; x < 6; x++)
             {
@@ -410,10 +437,10 @@ void Rock_With_Song()
         Num_Shark02_High = 0; // reset the count when effect playing finished
     }
     if (Number_Shark02_LOW > 40)
-        //when the time of low value sound reached
+    // when the time of low value sound reached
     {
         for (int i = 0; i < LED_COUNT / 2; i++)
-            //close the light from two point
+        // close the light from two point
         {
             leds.setPixelColor(i, 0);
             leds.setPixelColor(LED_COUNT - i, 0);
@@ -425,6 +452,7 @@ void Rock_With_Song()
     if (Dis_En == true)
         Display();
 }
+
 
 void Display()
 {

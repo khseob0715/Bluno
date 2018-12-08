@@ -15,16 +15,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dff058dd-8400-4eb6-8ab8-26bda826555c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bLUNO/bLUNO.iml" afterPath="$PROJECT_DIR$/bLUNO/bLUNO.iml" />
+      <change beforePath="$PROJECT_DIR$/Bluno.iml" afterPath="$PROJECT_DIR$/Bluno.iml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/bluno/R.java" afterPath="$PROJECT_DIR$/bLUNO/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/bluno/R.java" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/generated/res/google-services/debug/values/values.xml" afterPath="$PROJECT_DIR$/bLUNO/build/generated/res/google-services/debug/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/generated/source/buildConfig/debug/com/example/bluno/BuildConfig.java" afterPath="$PROJECT_DIR$/bLUNO/build/generated/source/buildConfig/debug/com/example/bluno/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-af.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-am.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ar.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-as.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-as.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-az.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-az.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-be.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-be.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-bg.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-bn.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-bn.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-bs.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-bs.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ca.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-cs.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-da.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-de.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-el.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-es.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-et.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-et.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-eu.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-eu.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fa.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fi.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-fr.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-gl.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-gl.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-gu.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-gu.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hi.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hr.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hu.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hy.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-hy.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-in.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-is.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-is.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-it-rIT.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-it-rIT.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-it.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-iw.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ja.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ka.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ka.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-kk.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-kk.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-km.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-km.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-kn.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-kn.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ko.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ky.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ky.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-land.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-land.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-lo.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-lo.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-lt.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-lv.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-mk.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-mk.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ml.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ml.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-mn.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-mn.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-mr.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-mr.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ms.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ms.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-my.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-my.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-nb.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ne.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ne.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-nl.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-or.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-or.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pa.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pa.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pl.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-port.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-port.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pt.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-pt.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ro.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ru.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-si.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-si.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sk.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sl.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sq.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sq.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sr.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sv.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sw.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sw720dp-land-v13.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-sw720dp-land-v13.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ta.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ta.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-te.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-te.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-th.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-tl.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-tr.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-uk.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ur.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-ur.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-uz.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-uz.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v11.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v14.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v16.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v16.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v17.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v17.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v18.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v18.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v21.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v22.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v22.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v23.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v23.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v24.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v24.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v25.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v25.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v26.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v26.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v28.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-v28.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-vi.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-watch-v20.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-watch-v20.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-watch-v21.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-watch-v21.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values-zu.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/blame/res/debug/single/debug.json" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/build-info/debug/build-info.xml" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$2.class" />
@@ -35,14 +143,147 @@
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$7.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$7.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$8.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity$8.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/BLUNOActivity.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog$1.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog$2.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog$3.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog$3.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Dialog/ShareDialog.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/Fragment/FragmentShare.class" />
-      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/PlainProtocol.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/PlainProtocol.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/views/CanvasView.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental-verifier/debug/com/example/bluno/views/CanvasView.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it-rIT/values-it-rIT.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it-rIT/values-it-rIT.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$3.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$3.class" />
@@ -52,14 +293,25 @@
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$7.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$7.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$8.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity$8.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/BLUNOActivity.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog$1.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog$2.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog$3.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog$3.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Dialog/ShareDialog.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/Fragment/FragmentShare.class" />
-      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/PlainProtocol.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/PlainProtocol.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/views/CanvasView.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/bluno/views/CanvasView.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/manifest-checker/debug/manifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/manifest-checker/debug/manifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/resources/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/resources/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/slices/slice_1.apk" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/slices/slice_3.apk" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/split-apk/debug/slices/slice_5.apk" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/symbols/debug/R.txt" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$1.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$1.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$2.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$2.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$3.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$3.dex" />
@@ -69,7 +321,12 @@
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$7.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$7.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$8.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity$8.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/BLUNOActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/PlainProtocol.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/84/com/example/bluno/PlainProtocol.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/86/com/example/bluno/views/CanvasView.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/86/com/example/bluno/views/CanvasView.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog$1.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog$1.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog$2.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog$2.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog$3.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog$3.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Dialog/ShareDialog.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.dex" />
@@ -77,7 +334,9 @@
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/88/com/example/bluno/Fragment/FragmentShare.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/1/classes.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/1/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/3/classes.dex" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/5/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$3.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$3.class" />
@@ -87,16 +346,49 @@
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$7.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$7.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$8.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity$8.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/BLUNOActivity.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog$1.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog$2.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog$3.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog$3.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Dialog/ShareDialog.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$2.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder$1.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter$ItemViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare$ShareRecyclerAdapter.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/Fragment/FragmentShare.class" />
-      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/PlainProtocol.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/PlainProtocol.class" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/views/CanvasView.class" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/0/com/example/bluno/views/CanvasView.class" />
       <change beforePath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/bLUNO/build/intermediates/transforms/instantRun/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/bLUNO/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java" afterPath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Dialog/ShareDialog.java" afterPath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Dialog/ShareDialog.java" />
       <change beforePath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java" afterPath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java" />
-      <change beforePath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/PlainProtocol.java" afterPath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/PlainProtocol.java" />
+      <change beforePath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/views/CanvasView.java" afterPath="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/views/CanvasView.java" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/generated/source/buildConfig/debug/com/larswerkman/colorpicker/BuildConfig.java" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/generated/source/buildConfig/debug/com/larswerkman/colorpicker/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/incremental/packageDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/packaged_res/debug/values/values.xml" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/packaged_res/debug/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/holoColorPickermaster/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/holoColorPickermaster/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/generated/source/buildConfig/debug/me/imid/movablecheckbox/BuildConfig.java" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/generated/source/buildConfig/debug/me/imid/movablecheckbox/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugAssets/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/incremental/packageDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/packaged_res/debug/values/values.xml" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/packaged_res/debug/values/values.xml" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/meimidmovablecheckboxMovableCheckboxActivity/build/outputs/logs/manifest-merger-debug-report.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,6 +396,26 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="BLUNOActivity.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="282">
+                    <caret line="128" column="71" lean-forward="false" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -119,41 +431,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FragmentShare.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java">
+      <file leaf-file-name="ShareDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Dialog/ShareDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1261">
-              <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+            <state relative-caret-position="0">
+              <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BLUNOActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java">
+      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/views/CanvasView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+            <state relative-caret-position="265">
+              <caret line="167" column="30" lean-forward="false" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BluetoothLeService.java">
+      <file leaf-file-name="ColorPicker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/holoColorPickermaster/src/main/java/com/larswerkman/colorpicker/ColorPicker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="539" column="16" lean-forward="false" selection-start-line="539" selection-start-column="15" selection-end-line="539" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="290">
+              <caret line="494" column="15" lean-forward="false" selection-start-line="494" selection-start-column="15" selection-end-line="494" selection-end-column="15" />
+              <folding>
+                <element signature="e#14195#14196#0" expanded="true" />
+                <element signature="e#14224#14225#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlainProtocol.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/PlainProtocol.java">
+      <file leaf-file-name="FragmentCustomize.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentCustomize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="240" column="40" lean-forward="false" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
+            <state relative-caret-position="-1339">
+              <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -4415,9 +4730,11 @@
         <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentUser.java" />
         <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentMain.java" />
-        <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java" />
-        <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java" />
         <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/PlainProtocol.java" />
+        <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Dialog/ShareDialog.java" />
+        <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java" />
+        <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/views/CanvasView.java" />
+        <option value="$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java" />
       </list>
     </option>
   </component>
@@ -4442,6 +4759,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
@@ -4467,11 +4785,28 @@
               <item name="bLUNO" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="bluno" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bluno" type="1abcf292:AndroidViewProjectNode" />
+              <item name="bLUNO" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="bluno" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bluno" type="1abcf292:AndroidViewProjectNode" />
+              <item name="bLUNO" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="bluno" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Fragment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bluno" type="1abcf292:AndroidViewProjectNode" />
-              <item name="holoColorPickermaster" type="feadf853:AndroidModuleNode" />
+              <item name="bLUNO" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="bluno" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bluno" type="1abcf292:AndroidViewProjectNode" />
@@ -4481,7 +4816,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -4490,6 +4824,7 @@
     <property name="device.picker.selection" value="ce021712c08388de0c" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="android.profiler.active" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -4663,26 +4998,34 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-9" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10127932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1433902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4698,6 +5041,7 @@
       <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4741,6 +5085,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BluetoothLeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9576">
+          <caret line="539" column="16" lean-forward="false" selection-start-line="539" selection-start-column="15" selection-end-line="539" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/PlainProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4560">
+          <caret line="240" column="40" lean-forward="false" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -4782,53 +5158,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/fragment_draw.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/listitem_device.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/user_item_recycler_view.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/user_item_recycler_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="103" column="3" lean-forward="false" selection-start-line="103" selection-start-column="3" selection-end-line="111" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/fragment_user.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/fragment_user.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/fragment_customize.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/fragment_customize.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="38" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Activity/SplashActivity.java">
@@ -4847,14 +5223,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/res/layout/fragment_share.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="49" column="33" lean-forward="false" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/holoColorPickermaster/build.gradle">
@@ -4899,14 +5275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/holoColorPickermaster/src/main/java/com/larswerkman/colorpicker/ColorPicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="388" column="22" lean-forward="false" selection-start-line="388" selection-start-column="11" selection-end-line="388" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -4915,25 +5283,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentCustomize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1463">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="131" column="22" lean-forward="false" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BluetoothLeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="9576">
           <caret line="539" column="16" lean-forward="false" selection-start-line="539" selection-start-column="15" selection-end-line="539" selection-end-column="16" />
           <folding />
         </state>
@@ -4941,7 +5293,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/PlainProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="4560">
           <caret line="240" column="40" lean-forward="false" selection-start-line="240" selection-start-column="40" selection-end-line="240" selection-end-column="40" />
           <folding />
         </state>
@@ -4949,8 +5301,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentShare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+        <state relative-caret-position="-1123">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/views/CanvasView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="167" column="30" lean-forward="false" selection-start-line="167" selection-start-column="30" selection-end-line="167" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holoColorPickermaster/src/main/java/com/larswerkman/colorpicker/ColorPicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="494" column="15" lean-forward="false" selection-start-line="494" selection-start-column="15" selection-end-line="494" selection-end-column="15" />
+          <folding>
+            <element signature="e#14195#14196#0" expanded="true" />
+            <element signature="e#14224#14225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Dialog/ShareDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/Fragment/FragmentCustomize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1339">
+          <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bLUNO/src/main/java/com/example/bluno/BLUNOActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="128" column="71" lean-forward="false" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
           <folding />
         </state>
       </provider>

@@ -125,26 +125,63 @@ public class CanvasView extends LinearLayout {
                 // ((ColorDrawable) pixel.getBackground()).getColor()   10진수 값.
                 // 10진수를 Hex로
                 // Integer.toHexString(((ColorDrawable) pixel.getBackground()).getColor());
-                int res = getRGB(Integer.toHexString(((ColorDrawable) pixel.getBackground()).getColor()));
 
-  //              list += ((ColorDrawable) pixel.getBackground()).getColor()+",";
-                list += res +",";
+                // list += ((ColorDrawable) pixel.getBackground()).getColor()+",";
+
+                int r = (((ColorDrawable) pixel.getBackground()).getColor() & 0x00ff0000)>>16;
+                int g = (((ColorDrawable) pixel.getBackground()).getColor() & 0x0000ff00)>>8;
+                int b = (((ColorDrawable) pixel.getBackground()).getColor() & 0x000000ff)>>0;
+
+                switch ((int)Math.log10(r)+1) {
+                    case 0:
+                        list += "000";
+                        break;
+                    case 1:
+                        list += "00" + r;
+                        break;
+                    case 2:
+                        list += "0" + r;
+                        break;
+                    case 3:
+                        list += r;
+                        break;
+                }
+
+                switch ((int)Math.log10(g)+1) {
+                    case 0:
+                        list += "000";
+                        break;
+                    case 1:
+                        list += "00" + g;
+                        break;
+                    case 2:
+                        list += "0" + g;
+                        break;
+                    case 3:
+                        list += g;
+                        break;
+                }
+
+                switch ((int)Math.log10(b)+1) {
+                    case 0:
+                        list += "000";
+                        break;
+                    case 1:
+                        list += "00" + b;
+                        break;
+                    case 2:
+                        list += "0" + b;
+                        break;
+                    case 3:
+                        list += b;
+                        break;
+                }
+
+                list += ",";
             }
         }
 
         return list.substring(0, list.length() - 1);
-    }
-
-    public int getRGB(final String rgb)
-    {
-        int res = 0;
-        final int[] ret = new int[3];
-        for (int i = 0; i < 3; i++)
-        {
-            ret[i] = Integer.parseInt(rgb.substring(i * 2, i * 2 + 2), 16);
-        }
-        res = ret[0]*1000000+ret[1]*1000+ret[2];
-        return res;
     }
 
 

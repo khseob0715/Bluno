@@ -46,7 +46,6 @@ public class FragmentShare extends Fragment {
 
     public static int Once = 0;
 
-    //public static int[] CustomPixel = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
     public static String[] CustomPixel = new String[170];
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -127,27 +126,12 @@ public class FragmentShare extends Fragment {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-//                    Toast.makeText(getContext(), String.format("%d 선택 %s", position + 1, lightModels.get(position).SharePixel.get(0)), Toast.LENGTH_LONG).show();
-
-
                     int len = 170;
-                    String list = "";
 
                     for(int i = 0 ; i < len; i++) {
                         CustomPixel[i] = lightModels.get(position).SharePixel.get(i);
-                        if(BLUNOActivity.print) {
-                            list += CustomPixel[i];
-                            list += " ";
-                        }
                     }
-                    BLUNOActivity.delayTime = 300;
                     BLUNOActivity.Modestates = 3; // CustomMode;
-
-//                    if(BLUNOActivity.print)
-//                       Toast.makeText(getContext(), list, Toast.LENGTH_SHORT).show();//
-//                   MatrixTime(3000);
-
-
                 }
 
 
