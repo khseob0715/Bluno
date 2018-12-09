@@ -8,11 +8,12 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="#8aebff"
+        android:background="#3085ed"
         android:gravity="center"
-        android:text="사용자 조명 저장"
+        android:text="내가 만든 DIY 조명 저장하기"
+        android:textStyle="bold"
         android:textColor="#ffffff"
-        android:textSize="16dp" />
+        android:textSize="20dp" />
 
     <View
         android:layout_width="match_parent"

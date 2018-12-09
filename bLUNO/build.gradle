@@ -62,6 +62,7 @@ dependencies {
     //color picker view
     implementation "com.github.skydoves:colorpickerview:2.0.1"
 
+   // implementation "cc.cloudist.acplibrary:library:1.2.1"
 }
 
 apply plugin: 'com.google.gms.google-services'

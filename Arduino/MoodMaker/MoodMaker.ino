@@ -296,6 +296,19 @@ void theme01()
     leds.show();
 }
 
+int theme02_Color[] = {0x3946F1, 0x5CDEF0, 0x2008A5};
+Metro theme02 = Metro(2000);
+void theme02()
+{
+  
+  for (int i = 0; i < 15; i++){
+    for (int j = 0; j < 12; j++){
+      leds.setPixelColor(12 * i + j, theme02_Color[i % 3]);
+    }
+  }
+    leds.show();
+}
+
 
 
 void clearLEDs() // LED 전부 지우기

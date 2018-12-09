@@ -43,7 +43,7 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int layout_dialog_colorpicker = 0x7f0b003d;
+        public static final int layout_dialog_colorpicker = 0x7f0b003e;
     }
     public static final class styleable {
         private styleable() {}
