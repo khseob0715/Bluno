@@ -1281,6 +1281,7 @@ id primary
 id profile_image
 id profile_relativelayout
 id progress
+id progressBar2
 id progress_bar
 id progress_circular
 id progress_horizontal
@@ -1460,6 +1461,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout dialog_progressbar
 layout dialog_share
 layout fragment_customize
 layout fragment_draw

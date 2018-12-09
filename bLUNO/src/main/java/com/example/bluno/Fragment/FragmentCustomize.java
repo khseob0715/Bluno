@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.content.res.ColorStateList;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -30,6 +31,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.bluno.Dialog.CustomFlag;
+import com.example.bluno.Dialog.ProgressDialog;
 import com.example.bluno.Dialog.ShareDialog;
 import com.example.bluno.R;
 import com.example.bluno.views.CanvasView;
@@ -38,6 +40,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.skydoves.colorpickerview.AlphaTileView;
@@ -49,6 +52,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.sql.Date;
 import java.util.List;
+
 
 public class FragmentCustomize extends Fragment {
 
@@ -80,6 +84,8 @@ public class FragmentCustomize extends Fragment {
     private TextView textView;
     private AlphaTileView alphaTileView;
 
+    public ProgressDialog progressDialog;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -102,8 +108,6 @@ public class FragmentCustomize extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_customize,null);
-
-
 
         buttonlist = view.findViewById(R.id.buttonlist);
 
@@ -190,6 +194,9 @@ public class FragmentCustomize extends Fragment {
 
                 String path =  Environment.getExternalStorageDirectory().getAbsolutePath();
                 Bitmap b = Bitmap.createBitmap(canvasView.getWidth(), canvasView.getHeight(), Bitmap.Config.RGB_565);
+               // Toast.makeText(getContext(), "캔버스를 저장하는 중입니다. 잠시만 기다려주세요", Toast.LENGTH_LONG).show();
+
+                progressDialog = new ProgressDialog(getContext());
 
 
                 if(b!=null){
@@ -214,7 +221,13 @@ public class FragmentCustomize extends Fragment {
 
                         StorageReference riversRef = mStoragedRef.child("images/LigthImage" +  "/" + f2);
 
-                        riversRef.putFile(Uri.fromFile(f2)).addOnFailureListener(new OnFailureListener() {
+                        progressDialog.callFunction();
+                        riversRef.putFile(Uri.fromFile(f2)).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                            @Override
+                            public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+
+                            }
+                        }).addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception exception) {
                                 // Handle unsuccessful uploads
@@ -223,11 +236,13 @@ public class FragmentCustomize extends Fragment {
                             @Override
                             public void onSuccess(UploadTask.TaskSnapshot task) {
                                 // 저장이 제대로 되었을 경우 다이얼로그 호출.
+
                                 ShareDialog customDialog = new ShareDialog(getContext());
                                 // 커스텀 다이얼로그를 호출한다.
                                 // 커스텀 다이얼로그의 결과를 출력할 TextView를 매개변수로 같이 넘겨준다.
 
                                 customDialog.callFunction(task.getDownloadUrl().toString(), canvasView);
+                                progressDialog.dismissCall();
 
                             }
                         });
