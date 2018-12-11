@@ -26,6 +26,8 @@ int Red = 10, Green = 0, Blue = 10, Number_Position_RGB = 100;
 int SeletedTheme = 0;
 int Speech_Flag = 0;
 int FreqVal[7]; // the spectrum value
+int iforp=10;
+int ten = 10;
 int color[] =
 {
     0xDC143C, 0xFFA500, 0xFFFF00, 0x32CD32, 0x0000FF, 0x2F4F4F, 0x4B0082, 0xDA70D6
@@ -45,6 +47,15 @@ int pixel_index;
 boolean OneTime = false;
 int preTheme = 0;
 boolean custome = true;
+boolean theme1 = false;
+boolean theme2 = false;
+boolean theme3 = false;
+boolean theme4 = false;
+boolean Anitheme1 = false;
+boolean Anitheme2 = false;
+boolean Anitheme3 = false;
+boolean Anitheme4 = false;
+boolean isother=true;
 void setup()
 {
     Audio.Init(); // Init module
@@ -63,6 +74,7 @@ void setup()
 void loop()
 {
     val = digitalRead(inputPin);
+    
     if (BLUNOPlainProtocol.available())
     {
         if (BLUNOPlainProtocol.receivedCommand == "RGBLED")
@@ -178,28 +190,101 @@ void loop()
                 switch (SeletedTheme)
                 {
                     case 101:
+                        isother=true;
+                        theme1 = true;
+                        theme2 = false;
+                        theme3 = false;
+                        theme4 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = false;
+                        Anitheme3 = false;
+                        Anitheme4 = false;
                         theme01();
+                        
                         break;
                     case 102:
+                    theme2 = true;
+                        theme1 = false;
+                        theme3 = false;
+                        theme4 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = false;
+                        Anitheme3 = false;
+                        Anitheme4 = false;
                         theme02();
+                        
                         break;
                     case 103:
+                    theme3 = true;
+                        theme2 = false;
+                        theme1 = false;
+                        theme4 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = false;
+                        Anitheme3 = false;
+                        Anitheme4 = false;
                         theme03();
+                        
                         break;
                     case 104:
+                    theme4 = true;
+                        theme2 = false;
+                        theme3 = false;
+                        theme1 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = false;
+                        Anitheme3 = false;
+                        Anitheme4 = false;
                         theme04();
+                        
                         break;
                     case 201:
+                        isother=false;
+                        theme1 = false;
+                        theme2 = false;
+                        theme3 = false;
+                        theme4 = false;
+                        Anitheme1 = true;
+                        Anitheme2 = false;
+                        Anitheme3 = false;
+                        Anitheme4 = false;
                         Anime_theme01();
+                        
                         break;
                     case 202:
+                    
+                        theme1 = false;
+                        theme2 = false;
+                        theme3 = false;
+                        theme4 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = true;
+                        Anitheme3 = false;
+                        Anitheme4 = false;
                         Anime_theme02();
                         break;
                     case 203:
+                        theme1 = false;
+                        theme2 = false;
+                        theme3 = false;
+                        theme4 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = false;
+                        Anitheme3 = true;
+                        Anitheme4 = false;
                         Anime_theme03();
                         break;
                     case 204:
+                        theme1 = false;
+                        theme2 = false;
+                        theme3 = false;
+                        theme4 = false;
+                        Anitheme1 = false;
+                        Anitheme2 = false;
+                        Anitheme3 = false;
+                        Anitheme4 = true;
                         Anime_theme04();
+                        
                         break;
                 }
             }
@@ -512,7 +597,7 @@ void theme02()
         }
     }
     leds.show();
-    if (theme02_Metro.check())
+    if (theme02_Metro.check() && theme2)
     {
         int t0 = theme02_Color[0];
         int t1 = theme02_Color[1];
@@ -524,14 +609,14 @@ void theme02()
 }
 
 int theme03Repeat = 0;
-Metro theme03Metro = Metro(1800);
+Metro theme03_Metro = Metro(1800);
 void theme03()
 {
     for (int i = 0; i < 20; i++)
     {
         leds.setPixelColor((int) random(0, 179), 255, 92, 125);
     }
-    if (theme03Metro.check())
+    if (theme03_Metro.check() && theme3)
     {
         for (int i = 10; i < 120; i++)
         {
@@ -558,7 +643,7 @@ void theme04()
 {
     
 
-    if(theme04_Metro.check()){
+    if(theme04_Metro.check() && theme4){
         leds.setPixelColor(theme04_start+0, 255, 255, 0);
         leds.setPixelColor(theme04_start+1, 255, 255, 0);
         leds.setPixelColor(theme04_start+2, 0, 255, 0);
@@ -579,10 +664,15 @@ void theme04()
 }
 
 Metro AniTheme01_Metro = Metro(1800);
+Metro AniTheme01_MetroLed = Metro(18);
 int Anime_theme01Repeat = 0;
 void Anime_theme01()
 {
-    for (int i = 0; i < 5; i++)
+
+  if (AniTheme01_Metro.check() && Anitheme1)
+    {
+
+      for (int i = 0; i < 5; i++)
     {
         leds.setPixelColor((int) random(0, 179), 104, 233, 229);
     }
@@ -594,32 +684,42 @@ void Anime_theme01()
     {
         leds.setPixelColor((int) random(0, 179), 232, 255, 255);
     }
-    if (AniTheme01_Metro.check())
-    {
-        for (int i = 10; i < 150; i++)
-        {
-            leds.setBrightness(i);
-            leds.show();
+    
+        
+    }
+    
+    if(AniTheme01_MetroLed.check()){
+        iforp += ten;
+        if(iforp == 160){
+           ten = -1;
         }
-        for (int i = 150; i > 10; i--)
-        {
-            leds.setBrightness(i);
-            leds.show();
-        }
-        Anime_theme01Repeat++;
-        if (Anime_theme01Repeat >= 7)
+        if(iforp == 10){
+          ten = 1;
+          if (Anime_theme01Repeat >= 140)
         {
             clearLEDs();
+            leds.setPixelColor((int) random(0, 179), 104, 233, 229);
+            leds.setPixelColor((int) random(0, 179), 247, 255, 0);
+            leds.setPixelColor((int) random(0, 179), 104, 233, 229);
+            leds.setPixelColor((int) random(0, 179), 247, 255, 0);
+            leds.setPixelColor((int) random(0, 179), 104, 233, 229);
             Anime_theme01Repeat = 0;
         }
+        }
+        Anime_theme01Repeat++;
+        
+        leds.setBrightness(iforp);
+        leds.show(); 
     }
+    
+    
 }
 
 int len = 1;
 Metro AniTheme02_Metro(100);
 void Anime_theme02()
 {
-    if (AniTheme02_Metro.check())
+    if (AniTheme02_Metro.check() && Anitheme2)
     {
         for (int i = 0; i < len; i++)
         {
@@ -649,7 +749,7 @@ void Anime_theme03()
     {
         leds.setPixelColor(i, 0x00b3b3);
     }
-    if (AniTheme03_Metro.check())
+    if (AniTheme03_Metro.check() && Anitheme3)
     {
         last = theme03_led_arr[0];
         for (int i = 0; i < 8; i++)
@@ -695,46 +795,48 @@ int Ani_theme04_color[] =
 {
     0xff0000, 0xff00bf, 0x4000ff, 0x00ff40, 0xffff00, 0xff8000, 0xff0000, 0x6600ff
 };
-
+Metro AniTheme04_Metro(1000);
 void Anime_theme04()
 {
     // 클럽파티
-    for (int i = 0; i < LED_COUNT; i++)
-    {
-        if (i < LED_COUNT / 7)
-        {
-            leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-        }
-        else
-            if (i < (LED_COUNT / 7) * 2)
-            {
-                leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-            }
-        else
-            if (i < (LED_COUNT / 7) * 3)
-            {
-                leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-            }
-        else
-            if (i < (LED_COUNT / 7) * 4)
-            {
-                leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-            }
-        else
-            if (i < (LED_COUNT / 7) * 5)
-            {
-                leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-            }
-        else
-            if (i < (LED_COUNT / 7) * 6)
-            {
-                leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-            }
-        else
-            if (i < LED_COUNT)
-            {
-                leds.setPixelColor(i, Ani_theme04_color[random(8)]);
-            }
-    }
+
+      for (int i = 0; i < LED_COUNT; i++)
+      {
+          if (i < LED_COUNT / 7)
+          {
+              leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+          }
+          else
+              if (i < (LED_COUNT / 7) * 2)
+              {
+                  leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+              }
+          else
+              if (i < (LED_COUNT / 7) * 3)
+              {
+                  leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+              }
+          else
+              if (i < (LED_COUNT / 7) * 4)
+              {
+                  leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+              }
+          else
+              if (i < (LED_COUNT / 7) * 5)
+              {
+                  leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+              }
+          else
+              if (i < (LED_COUNT / 7) * 6)
+              {
+                  leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+              }
+          else
+              if (i < LED_COUNT)
+              {
+                  leds.setPixelColor(i, Ani_theme04_color[random(8)]);
+              }
+      }
+    
     leds.show();
 }
